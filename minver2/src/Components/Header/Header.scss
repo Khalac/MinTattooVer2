@@ -1,0 +1,100 @@
+@media screen and (min-width: 992px){
+  .Header{
+    height: 100%;
+    color: white;
+    background-color: black;
+  }
+  .Wellcome_PageName{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lisu Bosa', serif;
+    .Wellcome{
+      padding-top: 4%;
+      padding-bottom: 1%;
+      font-size: 200%;
+    }
+    .PageName{
+      padding-bottom: 2%;
+      font-size: 250%;
+    }
+  }
+  .Pages{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    margin-top: 3%;
+    .Page{
+      margin-left: 7%;
+      margin-right: 7%;
+      font-size: 180%;
+    }
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  .TattooStu{
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kalam', cursive;
+    font-size: 150%;
+  }
+  
+}
+
+
+@media screen and (max-width:768px){
+  .Header{
+    height: 100%;
+    color: white;
+    background-color: black;
+  }
+  .Wellcome_PageName{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lisu Bosa', serif;
+    .Wellcome{
+      padding-top: 3%;
+      padding-bottom: 2%;
+    }
+    .PageName{
+      padding-bottom: 2%;
+      font-size: 150%;
+    }
+  }
+  .Pages{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    margin-top: 3%;
+    .Page{
+      margin-left: 5%;
+      margin-right: 5%;
+    }&:hover{
+      cursor: pointer;
+    }
+  }
+  .TattooStu{
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kalam', cursive;
+  }
+  
+}

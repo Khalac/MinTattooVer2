@@ -1,0 +1,151 @@
+@media screen and (min-width: 992px){
+  .About{
+    height: 100%;
+    background-color: black;
+    .AboutText{
+      height: 10%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 300%;
+      font-family: 'Kaushan Script', cursive;
+      color:white;
+    }
+
+    .AboutImgAndPara{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height: 80%;
+      .AboutImg{
+        width: 40%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        .AboutImgTop{
+          height: 45%;
+          width: 70%;
+          background-image: url('../assets/imgArts/3.webp');
+          background-position: 50% 30%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          border-radius: 10%;
+        }
+        .AboutImgBottom{
+          height: 45%;
+          width: 70%;
+          background-image: url('../assets/imgArts/9.webp');
+          background-position: 50% 50%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          border-radius: 10%;
+        }
+      }
+      .AboutPara{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Kaushan Script', cursive;
+        .para {
+          text-align: center;
+          font-size: 170%;
+        }
+        .para_heading{
+          text-align: center;
+          font-size: 300%;
+        }
+      }
+    }
+    .AboutEnd{
+      display: flex;
+      height: 10%;
+      justify-content: center;
+      align-items: center;
+      .AboutLine{
+      height: 2px;
+      width: 40%;
+      background-color: rgb(172, 169, 169);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .About{
+    height: 100%;
+    background-color: black;
+    .AboutText{
+      height: 15%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 200%;
+      font-family: 'Kaushan Script', cursive;
+      color:white;
+    }
+
+    .AboutImgAndPara{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      height: 80%;
+      .AboutImg{
+        width: 40%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        .AboutImgTop{
+          height: 35%;
+          width: 100%;
+          background-image: url('../assets/imgArts/3.webp');
+          background-position: 50% 70%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          border-radius: 10%;
+        }
+        .AboutImgBottom{
+          height: 35%;
+          width: 100%;
+          background-image: url('../assets/imgArts/9.webp');
+          background-position: 50% 0%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          border-radius: 10%;
+        }
+      }
+      .AboutPara{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Kaushan Script', cursive;
+        .para {
+          text-align: center;
+        }
+        .para_heading{
+          text-align: center;
+          font-size: 150%;
+        }
+      }
+    }
+    .AboutEnd{
+      display: flex;
+      height: 9%;
+      justify-content: center;
+      align-items: center;
+      .AboutLine{
+      margin-top: 5%;
+      height: 2px;
+      width: 40%;
+      background-color: rgb(172, 169, 169);
+      }
+    }
+  }
+}
