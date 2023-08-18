@@ -4,19 +4,19 @@ import "./Header.scss";
 function Header() {
   function scrollToHome() {
     var elmnt = document.getElementById("Home");
-    elmnt.scrollIntoView({ behavior: "smooth" });
+    elmnt.scrollIntoView({ behavior: "smooth", block: "start" });
   }
   function scrollToArtist() {
     var elmnt = document.getElementById("Artist");
-    elmnt.scrollIntoView({ behavior: "smooth" });
+    elmnt.scrollIntoView({ behavior: "smooth", block: "start" });
   }
   function scrollToAbout() {
     var elmnt = document.getElementById("About");
-    elmnt.scrollIntoView({ behavior: "smooth" });
+    elmnt.scrollIntoView({ behavior: "smooth", block: "start" });
   }
   function scrollToContact() {
     var elmnt = document.getElementById("Contact");
-    elmnt.scrollIntoView({ behavior: "smooth" });
+    elmnt.scrollIntoView({ behavior: "smooth", block: "start" });
   }
   return (
     <div className="Header">
