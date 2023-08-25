@@ -126,17 +126,17 @@
     .TattoosPage_img{
       display: grid;
       grid-template-columns: auto auto auto auto; 
-      row-gap: 2%;
+      grid-auto-rows:20%;
+      row-gap: 5%;
       justify-items: center;
-      margin-top: 5%;
+      margin-top: 10%;
   }
     .imgTattoos{
       display: flex;
       justify-items: center;
       align-items: center;
       border: 2px solid rgb(96, 95, 95);
-      height: 100%;
-      width: 90%;
+      width: 55%;
 
   }
     .ArtistEnd{
