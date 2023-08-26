@@ -29,7 +29,28 @@ function Artist() {
         <div className="ImgArtist2"></div>
         <div className="ImgArtist3"></div>
       </div>
-      <div className="TattoosPage_img">{listImg}</div>
+      <div className="TattoosPage_img">
+        <div className="img1 img"></div>
+        <div className="img2 img"></div>
+        <div className="img3 img"></div>
+        <div className="img4 img"></div>
+        <div className="img5 img"></div>
+        <div className="img6 img"></div>
+        <div className="img7 img"></div>
+        <div className="img8 img"></div>
+        <div className="img9 img"></div>
+        <div className="img10 img"></div>
+        <div className="img11 img"></div>
+        <div className="img12 img"></div>
+        <div className="img13 img"></div>
+        <div className="img14 img"></div>
+        <div className="img15 img"></div>
+        <div className="img16 img"></div>
+        <div className="img17 img"></div>
+        <div className="img18 img"></div>
+        <div className="img19 img"></div>
+        <div className="img20 img"></div>
+      </div>
       <div className="ArtistEnd">
         <div className="ArtistLine"></div>
       </div>
