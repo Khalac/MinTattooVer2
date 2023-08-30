@@ -20,10 +20,7 @@ function Header() {
   }
   return (
     <div className="Header">
-      <div className="Wellcome_PageName">
-        <div className="Wellcome">Wellcome to</div>
-        <div className="PageName">HYPER INKER TATTOO</div>
-      </div>
+      <div className="Wellcome_PageName"></div>
       <div className="Pages">
         <div className="Page" onClick={scrollToHome}>
           Home

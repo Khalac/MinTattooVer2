@@ -121,17 +121,18 @@
       .AboutPara{
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 40%;
         color: white;
         align-items: center;
         justify-content: center;
-        font-family: 'Kaushan Script', cursive;
         .para {
           text-align: center;
+          font-family: 'Noto Sans Multani', sans-serif;
         }
         .para_heading{
           text-align: center;
           font-size: 150%;
+          font-family: 'Kaushan Script', cursive;
         }
       }
     }
