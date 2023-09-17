@@ -70,7 +70,7 @@ function FAQ() {
   };
 
   return (
-    <div className="FAQ">
+    <div className="FAQ" id="FAQ">
       <div className="FAQText">FREQUENTLY ASKED QUESTION</div>
       <div className="FAQQuesAndAns">
         <button

@@ -1,0 +1,122 @@
+@media screen and (max-width:768px){
+  .Service{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('../assets/bg/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+  
+    .ServiceText{
+      padding-top: 10%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .ServiceText1{
+        width: 90%;
+        color: white;
+        font-family: "CompagnonMedium";
+        font-size: 90%;
+      }
+      .ServiceText2{
+        margin-top: 5%;
+        width: 90%;
+        color: white;
+        font-family: "CompagnonMedium";
+        font-size: 90%;
+      }
+    }
+    .ServiceButton{
+  
+      margin-top: 5%;
+      margin-right: 7%;
+      align-items: left;
+      color: red;
+      text-decoration: none;
+      border-bottom: 1px solid red;
+      float: right;
+    }
+    .OurService{
+      text-align: center;
+      color:white ;
+      margin-top: 10%;
+      font-size: 200%;
+      font-family: "clesmont";
+    }
+    .ServiceDetail{
+      height: 356%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      .TattooService{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .TattooServiceImgBor{
+          width: 20vw;
+          height: 20vw;
+          background-color: rgb(185, 78, 78);
+          .TattooServiceImg{
+            width: 100%;
+          }
+        }
+        .TattooServiceText{
+          margin-top: 20%;
+          color: white;
+          font-size:100%;
+          font-family: "CompagnonMedium";
+        }
+        &:hover{
+          cursor: pointer;
+        }
+      }
+      .PiercingService{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .PiercingServiceImgBor{
+          width: 20vw;
+          height: 20vw;
+          background-color: rgb(185, 78, 78);
+          .PiercingServiceImg{
+            width: 100%;
+          }
+        }
+        .PiercingServiceText{
+          margin-top: 20%;
+          color: white;
+          font-size:100%;
+          font-family: "CompagnonMedium";
+        }
+        &:hover{
+          cursor: pointer;
+        }
+      }
+      .DesignService{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+  
+        .DesignServiceImgBor{
+          width: 20vw;
+          height: 20vw;
+          background-color: rgb(185, 78, 78);
+          .DesignServiceImg{
+            width: 100%;
+          }
+        }
+        .DesignServiceText{
+          margin-top: 20%;
+          color: white;
+          font-size:100%;
+          font-family: "CompagnonMedium";
+        }
+      }
+    }
+  }
+}

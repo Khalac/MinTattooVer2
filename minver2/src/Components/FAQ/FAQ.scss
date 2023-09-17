@@ -64,8 +64,12 @@
 }
 @media screen and (max-width: 768px){
   .FAQ{
-    background-color: black;
+    background-image: url('../assets/bg/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
+    padding-top: 10%;
     .FAQText{
       display: flex;
       align-items: center;

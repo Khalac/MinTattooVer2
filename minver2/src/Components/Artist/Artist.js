@@ -1,58 +1,72 @@
 import React from "react";
 import "./Artist.scss";
 
+import { useNavigate } from "react-router-dom";
+
 function Artist() {
-  function importAll(r) {
-    let images = {};
-    r.keys().forEach((item, index) => {
-      images[item.replace("./", "")] = r(item);
-    });
-    return images;
-  }
-  const images = importAll(
-    require.context("../assets/imgTattoo", false, /\.webp$/)
-  );
-  let imgArr = [];
-  for (let i = 1; i <= 20; ++i) {
-    imgArr.push(images[`${i}.webp`]);
-  }
-
-  const listImg = imgArr.map((img) => {
-    return <img src={img} alt="img" loading="lazy" className="imgTattoos" />;
-  });
-
+  const nav = useNavigate();
+  const LinkToBrother = () => {
+    nav("/Minh", { replace: true });
+  };
+  const LinkToAaron = () => {
+    nav("/Aaron", { replace: true });
+  };
+  const LinkToAnet = () => {
+    nav("/Anet", { replace: true });
+  };
+  const LinkToNicole = () => {
+    nav("/Nicole", { replace: true });
+  };
+  const LinkToBenjamin = () => {
+    nav("/Benjamin", { replace: true });
+  };
   return (
     <div className="Artist" id="Artist">
-      <div className="ArtistText">Meet Our Artist</div>
-      <div className="ImgArtist">
-        <div className="ImgArtist1"></div>
-        <div className="ImgArtist2"></div>
-        <div className="ImgArtist3"></div>
+      <div className="ArtistText">OUR ARTIST</div>
+      <div className="Brother">
+        <div className="BrotherImg"></div>
+        <div className="BrotherName">
+          <div className="BrName">Minh</div>
+        </div>
+        <div className="BrotherPorfolio" onClick={() => LinkToBrother()}>
+          <div className="BrPorfolio">View porfolio</div>
+        </div>
       </div>
-      <div className="TattoosPage_img">
-        <div className="img1 img"></div>
-        <div className="img2 img"></div>
-        <div className="img3 img"></div>
-        <div className="img4 img"></div>
-        <div className="img5 img"></div>
-        <div className="img6 img"></div>
-        <div className="img7 img"></div>
-        <div className="img8 img"></div>
-        <div className="img9 img"></div>
-        <div className="img10 img"></div>
-        <div className="img11 img"></div>
-        <div className="img12 img"></div>
-        <div className="img13 img"></div>
-        <div className="img14 img"></div>
-        <div className="img15 img"></div>
-        <div className="img16 img"></div>
-        <div className="img17 img"></div>
-        <div className="img18 img"></div>
-        <div className="img19 img"></div>
-        <div className="img20 img"></div>
+      <div className="Aaron">
+        <div className="AaronImg"></div>
+        <div className="AaronName">
+          <div className="AaronName">AARON</div>
+        </div>
+        <div className="AaronPorfolio" onClick={() => LinkToAaron()}>
+          <div className="AaronPorfolio">View porfolio</div>
+        </div>
       </div>
-      <div className="ArtistEnd">
-        <div className="ArtistLine"></div>
+      <div className="Anet">
+        <div className="AnetImg"></div>
+        <div className="AnetName">
+          <div className="AnetName">ANET</div>
+        </div>
+        <div className="AnetPorfolio" onClick={() => LinkToAnet()}>
+          <div className="AnetPorfolio">View porfolio</div>
+        </div>
+      </div>
+      <div className="Nicole">
+        <div className="NicoleImg"></div>
+        <div className="NicoleName">
+          <div className="NicoleName">NICOLE</div>
+        </div>
+        <div className="NicolePorfolio" onClick={() => LinkToNicole()}>
+          <div className="NicolePorfolio">View porfolio</div>
+        </div>
+      </div>
+      <div className="Benjamin">
+        <div className="BenjaminImg"></div>
+        <div className="BenjaminName">
+          <div className="BenjaminName">BENJAMIN</div>
+        </div>
+        <div className="BenjaminPorfolio" onClick={() => LinkToBenjamin()}>
+          <div className="BenjaminPorfolio">View porfolio</div>
+        </div>
       </div>
     </div>
   );

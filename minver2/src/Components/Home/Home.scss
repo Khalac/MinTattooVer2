@@ -90,83 +90,196 @@
 @media screen and (max-width:768px){
   .Home{
     height: 100%;
-    background-color: black;
-    .HomeImg{
+    .HomeBanner{
+      height: 25%;
+      background-image: url('../assets/bg/banner.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
       display: flex;
-      flex-direction: row;
-      height: 65%;
-      .LeftImg{
-        width: 45%;
-        .TopImg{
-          height: 45%;
-          background-image: url('../assets/imgTattoo/7.webp');
-          background-position: 50% 70%;
-          background-repeat: no-repeat;
-          background-size: cover;
-        }
-        .BottomImg{
-          height: 55%;
-          background-image: url('../assets/imgTattoo/8.webp');
-          background-position: 50% 0%;
-          background-repeat: no-repeat;
-          background-size: cover;
-        }
-      }
-      .RightImg{
-        width: 55%;
-        background-image: url('../assets/imgBrother/mybrother6.webp');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+      flex-direction: column;
+      border: 1px solid gray;
 
+      .BannerText1{
+        margin-left: 10%;
+        color: black;
+        font-size: 150%;
+        font-family: "CompagnonMedium";
+
+      }
+      .BannerText2{
+        margin-left: 18%;
+        color: black;
+        margin-bottom: 5%;
+        font-size: 170%;
+        font-family: "CompagnonMedium";
       }
     }
-
-    
-    .ImgBox{
-      margin-top: 10%;
-      display: flex;
-      flex-direction: row;
-      height: 20%;
-      align-items: center;
-      justify-content: space-evenly;
-
-      .Box1{
-        height: 100%;
-        width: 28%;
-        background-image: url('../assets/imgTattoo/1.webp');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+    .HomeAbout{
+      height: 80%;
+      background-image: url('../assets/bg/bg.jpg');
+      background-repeat: no-repeat;
+      background-size:100% 94%;
+      .AboutTitle{
+        color: red;
+        font-size: 120%;
+        font-family: "clesmont";
+        padding-top: 7%;
+        padding-left: 3%;
       }
-      .Box2{
-        height: 100%;
-        width: 28%;
-        background-image: url('../assets/imgTattoo/3.webp');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-      .Box3{
-        height: 100%;
-        width: 28%;
-        background-image: url('../assets/imgTattoo/6.webp');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-    }
-
-    .HomeEnd{
-      display: flex;
-      height: 9%;
-      justify-content: center;
-      align-items: center;
-      .HomeLine{
-      margin-top: 20%;
-      height: 2px;
-      width: 40%;
-      background-color: rgb(172, 169, 169);
+      .AboutContent{
+        margin-top: 10%;
+        .AboutText{
+          text-align: right;
+          right:-3%;
+          position: absolute;
+          width:40%;
+          color: white;
+          font-family: "CompagnonMedium";
+          font-size: 80%;
+          margin-right: 5%;
+          .AboutView{
+            text-decoration: none;
+            margin-top: 20px;
+            color: rgb(157, 15, 15);
+            font-family: "CompagnonMedium";
+            position: absolute;
+            right:5%;
+            border-bottom: 1px solid red;
+            }
+        }
+        .AboutImgAaron{
+          height: 35%;
+          width: 50%;
+          background-image: url('../assets/AARON/Aaron.jpg');
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: absolute;
+          left: 3%;
+          z-index: 2;
+        }
+        .AboutInfor{
+          position: absolute;
+          top:125%;
+          left: 6%;
+          .ArtistInfor{
+            text-align: center;
+            .ArtistNum{
+              color: red;
+              font-size: 200%;
+              font-family: "clesmont";
+            }
+            .ArtistText{
+              color: white;
+              font-size: 80%;
+              font-family: "clesmont";
+            }
+          }
+          .ExperInfor{
+            margin-top: 20%;
+            text-align: center;
+            .ExperNum{
+              color: red;
+              font-size: 200%;
+              font-family: "clesmont";
+            }
+            .ExperText{
+              color: white;
+              font-size: 80%;
+              font-family: "clesmont";
+            }
+          }
+        }
+        .AboutBrotherImg{
+          height: 30%;
+          width: 50%;
+          background-image: url('../assets/imgBrother/mybrother4.webp');
+          background-position: 10% 50%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: absolute;
+          top: 120%;
+          right: 3%;
+          z-index: 3;
+          border-top: 10px solid;
+          border-left: 10px solid;
+          border-image: linear-gradient(to right bottom, rgb(207, 0, 0), black);
+          border-image-slice: 1;
+            
+        }
+        .AboutNextText{
+          text-align: right;
+          width: 90%;
+          color: red;
+          font-size: 200%;
+          position: absolute;
+          top: 155%;
+          right: 5%;
+          font-family: "clesmont";
+          font-weight: bold;
+        }
+        .AboutAchieve{
+          position: absolute;
+          top:205%;
+          left: 6%;
+          .Conven{
+            text-align: center;
+            .ConvenNum{
+              color: red;
+              font-size: 200%;
+              font-family: "clesmont";
+            }
+            .ConvenText{
+              color: white;
+              font-size: 80%;
+              font-family: "clesmont";
+            }
+          }
+          .Trophies{
+            margin-top: 20%;
+            text-align: center;
+            .TrophiesNum{
+              color: red;
+              font-size: 200%;
+              font-family: "clesmont";
+            }
+            .TrophiesText{
+              color: white;
+              font-size: 80%;
+              font-family: "clesmont";
+            }
+          }
+        }
+        .AboutTattooImage{
+          height: 30%;
+          width: 55%;
+          background-image: url('../assets/imgTattoo/6.webp');
+          background-position: 50% 20%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: absolute;
+          top: 170%;
+          left: 3%;
+          border-bottom: 10px solid;
+          border-right: 10px solid;
+          border-image: linear-gradient(to left top, rgb(207, 0, 0), black)1 100%;
+          border-image-slice: 1;
+          z-index: 2;
+        }
+        .AboutNicoleImg{
+          height: 35%;
+          width: 45%;
+          background-image: url('../assets/Anet/Anet.jpg');
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          position: absolute;
+          top: 190%;
+          right: 3%;
+          z-index: 1;
+        }
+        
       }
     }
   }

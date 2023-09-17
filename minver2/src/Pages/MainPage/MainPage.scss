@@ -3,6 +3,39 @@ body {
   margin: 0;
 }
 
+@font-face {
+  font-family: "Ramelik";
+  src: local("Ramelik"),url("../../Components/assets/font/Ramelik.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "BioRhymeExpandedLight";
+  src:local("BioRhymeExpandedLight"),url("../../Components/assets/font/BioRhymeExpanded-Light.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "BioRhymeExpandedBold";
+  src:local("BioRhymeExpandedBold"),url("../../Components/assets/font/BioRhymeExpanded-Bold.otf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "CompagnonMedium";
+  src:local("CompagnonMedium") ,url("../../Components/assets/font/Compagnon-Medium.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "CompagnonRoman";
+  src:local("CompagnonRoman") ,url("../../Components/assets/font/Compagnon-Roman.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "clesmont";
+  src: local("clesmont") ,url("../../Components/assets/font/clesmont.ttf") format("truetype");
+}
+
+
+
 @media screen and (min-width: 992px){
   .MainPage{
     height: 100vh;
@@ -10,9 +43,11 @@ body {
   }
   .MP_Header{
     height: 30%;
+    width: 100%;
   }
   .MP_Home{
     height: 200%;
+    width: 100%;
   }
   .MP_Artist{
     height: 300%;
@@ -34,20 +69,31 @@ body {
     width: 100vw;
   }
   .MP_Header{
-    height: 30%;
+    width: 100%;
+    height: 20%;
   }
   .MP_Home{
-    height: 80%;
+    width: 100%;
+    height: 220%;
   }
-
+  .MP_Service{
+    width: 100%;
+    height: 65%;
+  }
+  .MP_Img{
+    width: 100%;
+    height: 20%;
+    background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('../../Components/assets/bg/banner.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  }
   .MP_Artist{
-    height:130%;
-  }
-  .MP_About{
     height: 120%;
   }
   .MP_Contact{
-    height: 60%;
+    height: 120%;
   }
   .MP_FAQ{
     height: 65%;

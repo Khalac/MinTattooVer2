@@ -4,9 +4,11 @@ import "./MainPage.scss";
 
 import Home from "../../Components/Home/Home";
 import Artist from "../../Components/Artist/Artist";
-import About from "../../Components/About/About";
 import Contact from "../../Components/Contact/Contact";
 import FAQ from "../../Components/FAQ/FAQ";
+
+import "../../Components/assets/font/Ramelik.otf";
+import Service from "../../Components/Service/Service";
 
 function MainPage() {
   const [faqs, setfaqs] = useState([
@@ -49,11 +51,12 @@ function MainPage() {
       <div className="MP_Home">
         <Home />
       </div>
+      <div className="MP_Service">
+        <Service />
+      </div>
+      <div className="MP_Img"></div>
       <div className="MP_Artist">
         <Artist />
-      </div>
-      <div className="MP_About">
-        <About />
       </div>
       <div className="MP_Contact">
         <Contact />
