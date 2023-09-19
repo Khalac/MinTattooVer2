@@ -10,10 +10,9 @@
       font-size: 300%;
       font-family: 'Lisu Bosa', serif;
       margin-bottom: 10%;
-      color: white;
+      color: #CC0000;
     }
       .FAQQuesAndAns {
-        font-family: sans-serif;
         text-align: center;
         .question-section {
           background: transparent;
@@ -21,10 +20,10 @@
           border-bottom: 5px solid lightgray;
           cursor: pointer;
           width: 80%;
+
           .question-align {
             align-items: center;
             display: flex;
-            min-height: 10px;
             text-align: left;
             h4 {
               margin-left: 2%;
@@ -72,33 +71,47 @@
     padding-top: 10%;
     .FAQText{
       display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      font-size: 200%;
-      font-family: 'Lisu Bosa', serif;
+      justify-content: right;
+      font-size: 110%;
+
+      margin-right: 5%;
+      color: #CC0000;
+      font-family: "clesmont";
+    }
+    .FAQQues{
+      display: flex;
+      justify-content: right;
+      font-size: 46%;
       margin-bottom: 10%;
+      margin-right: 5%;
       color: white;
+      font-family: "CompagnonMedium";
     }
       .FAQQuesAndAns {
-        font-family: sans-serif;
+        margin-top: 10%;
         text-align: center;
         .question-section {
+          margin-top: 5%;
           background: transparent;
           border: none;
-          border-bottom: 1px solid lightgray;
           cursor: pointer;
-          width: 80%;
+          width: 95%;
           .question-align {
             align-items: center;
             display: flex;
-            min-height: 10px;
+            max-height: 30px;
             text-align: left;
+
+            background-color:#B50404;
             h4 {
               margin-left: 2%;
             }
             .question-style{
               color:white;
+              font-family: "CompagnonMedium";
+              font-size: 80%;
+              width: 80%;
+
             }
             .question-icon {
               background: none;
@@ -114,13 +127,21 @@
             }
           }
           .answer {
-            margin-left: 2%;
-            margin-right: 2%;
+
+            width: 95%;
             max-height: 0;
             overflow: hidden;
             transition: max-height 0.6s ease;
             text-align: left;
             color:white;
+            font-size: 70%;
+            background-color: rgba(156, 155, 155, 0.449);
+            position: relative; 
+            right:-5%;
+            font-family: "CompagnonMedium";
+            p{
+              margin-left: 3%;
+            }
           }
         }
       }

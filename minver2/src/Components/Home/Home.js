@@ -15,10 +15,10 @@ function Home() {
         <div className="AboutContent">
           <div className="AboutImgAaron"></div>
           <div className="AboutText">
+            <div>Hyper Inker Tattoo Studio established in 2023.</div>
             <div>
-              Hyper Inker Tattoo Studio established in 2023. Hyper team with all
-              technique, enthusiasm and creativity, ready to meet any unique
-              ideas coming from you - Our Inkers.
+              Hyper team with all technique, enthusiasm and creativity, ready to
+              meet any unique ideas coming from you - Our Inkers.
             </div>
             <Link to="/About" className="AboutView">
               View more
@@ -26,17 +26,18 @@ function Home() {
           </div>
           <div className="AboutInfor">
             <div className="ArtistInfor">
-              <div className="ArtistNum">5</div>
+              <div className="ArtistNum">5+</div>
               <div className="ArtistText">ARTIST</div>
             </div>
             <div className="ExperInfor">
-              <div className="ExperNum">7</div>
+              <div className="ExperNum">7+</div>
               <div className="ExperText">YRS EXPERIENCE</div>
             </div>
           </div>
           <div className="AboutBrotherImg"></div>
           <div className="AboutNextText">
-            <div>WE'RE HYPED TO</div> <div> GET YOU INKED</div> <div>!!!</div>
+            <div>WE'RE HYPED</div> <div>TO GET YOU </div>
+            <div>INKED </div> <div className="AboutNextText1">!!!</div>
           </div>
           <div className="AboutTattooImage"></div>
           <div className="AboutAchieve">
