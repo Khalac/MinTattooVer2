@@ -130,7 +130,8 @@
       }
       .AboutContent{
         margin-top: 10%;
-
+        position: relative;
+        height: 100%;
         .AboutText{
           position: absolute;
           text-align: right;
@@ -163,8 +164,8 @@
         }
         .AboutInfor{
           position: absolute;
-          top:87%;
-          left: 9%;
+          top:30%;
+          left: 10%;
           .ArtistInfor{
             text-align: center;
             .ArtistNum{
@@ -194,14 +195,14 @@
           }
         }
         .AboutBrotherImg{
-          height: 30%;
+          height: 25%;
           width: 50%;
           background-image: url('../assets/imgBrother/mybrother4.webp');
           background-position: 10% 50%;
           background-repeat: no-repeat;
           background-size: cover;
           position: absolute;
-          top: 75%;
+          top: 20%;
           right: 5%;
           z-index: 3;
           border-top: 10px solid;
@@ -216,7 +217,7 @@
           color: #BE1E2D;
           font-size: 250%;
           position: absolute;
-          top: 110%;
+          top:48%;
           right: 5%;
           font-family: "CopperplateGothicBold";
           font-weight: bold;
@@ -227,7 +228,7 @@
         }
         .AboutAchieve{
           position: absolute;
-          top:158%;
+          top: 85%;
           left: 10%;
           .Conven{
             text-align: center;
@@ -258,14 +259,14 @@
           }
         }
         .AboutTattooImage{
-          height: 30%;
+          height: 23%;
           width: 45%;
           background-image: url('../assets/imgTattoo/6.webp');
           background-position: 50% 20%;
           background-repeat: no-repeat;
           background-size: cover;
           position: absolute;
-          top: 125%;
+          top: 60%;
           left: 5%;
           border-bottom: 10px solid;
           border-right: 10px solid;
@@ -274,14 +275,14 @@
           z-index: 2;
         }
         .AboutNicoleImg{
-          height: 35%;
+          height: 30%;
           width: 45%;
           background-image: url('../assets/Anet/Anet.jpg');
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
           position: absolute;
-          top: 145%;
+          top: 70%;
           right: 5%;
           z-index: 1;
         }

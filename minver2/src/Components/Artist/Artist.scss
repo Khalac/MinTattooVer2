@@ -11,6 +11,7 @@
     background-position: 30% 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     .ArtistText{
       color: #CC0000;
       font-size: 150%;
@@ -20,11 +21,11 @@
     }
     .Brother{
       width: 40%;
-      height: 30%;
+      height: 25%;
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 265%;
+      top: 8%;
       left: 6%;
       .BrotherImg{
         width: 100%;
@@ -61,11 +62,11 @@
     }
     .Aaron{
       width: 40%;
-      height: 30%;
+      height: 25%;
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 285%;
+      top: 25%;
       right: 6%;
       .AaronImg{
         width: 100%;
@@ -102,11 +103,11 @@
     }
     .Anet{
       width: 40%;
-      height: 30%;
+      height: 25%;
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 302%;
+      top: 40%;
       left: 6%;
       .AnetImg{
         width: 100%;
@@ -143,11 +144,11 @@
     }
     .Nicole{
       width: 40%;
-      height: 30%;
+      height: 25%;
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 319%;
+      top: 55%;
       right: 6%;
       .NicoleImg{
         width: 100%;
@@ -184,11 +185,11 @@
     }
     .Benjamin{
       width: 40%;
-      height: 30%;
+      height: 25%;
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 338%;
+      top: 70%;
       left: 6%;
       .BenjaminImg{
         width: 100%;
