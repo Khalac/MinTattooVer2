@@ -102,7 +102,7 @@ function Contact() {
       <div className="BookingDes">
         <div className="BookingDesText">
           Please tell us about your ideas, style, size, color, placement, and
-          your budget.
+          your budget
         </div>
       </div>
     </div>

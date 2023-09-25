@@ -75,7 +75,7 @@
   .Contact{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url('../assets/bg/bg.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255,255,255,0.3)),url('../assets/bg/bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,7 +88,7 @@
       .Pricing{
         color: white;
         font-family: "clesmont";
-        font-size: 130%;
+        font-size: 120%;
       }
     }
     .PricingTable{
@@ -121,7 +121,7 @@
 
           height: 70%;
           font-family: "CompagnonMedium";
-          font-size: 60%;
+          font-size: 50%;
 
           color: white;
           
@@ -148,7 +148,7 @@
           align-items: center;
           height: 70%;
           font-family: "CompagnonMedium";
-          font-size: 60%;
+          font-size: 50%;
           text-align: center;
           color: white;
 
@@ -176,7 +176,7 @@
           text-align: center;
           height: 70%;
           font-family: "CompagnonMedium";
-          font-size: 60%;
+          font-size: 50%;
           color: white;
 
         }
@@ -194,7 +194,7 @@
       width: 100%;
       height: 25%;
       .ContactInfoList{
-      width: 75%;
+      width: 60%;
       height: 70%;
       display: flex;
       flex-direction: column;
@@ -203,7 +203,7 @@
       margin-left: 5%;
 
       .AddressInfo{
-        width: 55%;
+        width: 60%;
         height: 10%;
         display: flex;
 
@@ -217,7 +217,7 @@
         .AddressText{
           color: white;
           font-family: "CompagnonMedium";
-          font-size: 65%;
+          font-size: 55%;
         }
       }
       .EmailInfo{
@@ -236,7 +236,7 @@
         .EmailText{
           color: white;
           font-family: "CompagnonMedium";
-          font-size: 65%;
+          font-size: 55%;
         }
       }
       .PhoneInfo{
@@ -254,7 +254,7 @@
         .PhoneText{
           color: white;
           font-family: "CompagnonMedium";
-          font-size: 65%;
+          font-size: 55%;
         }
       }
       .TimeInfo{
@@ -272,7 +272,7 @@
         .TimeText{
           color: white;
           font-family: "CompagnonMedium";
-          font-size: 65%;
+          font-size: 55%;
         }
       }
       .WebInfo{
@@ -290,7 +290,7 @@
         .WebText{
           color: white;
           font-family: "CompagnonMedium";
-          font-size: 65%;
+          font-size: 55%;
         }
       }
       }
@@ -300,7 +300,7 @@
       position: absolute;
       top:27%;
       right: 5%;
-      width: 48%;
+      width: 47%;
       height: 23%;
       background-color: #CC6666;
       display: flex;
@@ -321,7 +321,7 @@
     }
     .BookingText{
       width: 100%;
-      font-size: 110%;
+      font-size: 130%;
       font-family: "clesmont";
       color: #f83939;
       text-align: center;
@@ -332,15 +332,13 @@
       height: 30%;
       display: flex;
       flex-direction: column;
-      margin-left: 5%;
-      justify-content: center;
       .NameForm{
         width: 85%;
         display: flex;
         flex-direction: row;
         .NameFormText{
           color: white;
-          font-size: 70%;
+          font-size: 60%;
           margin-right: 2%;
           font-family: "CompagnonMedium";
           width: 35%;
@@ -349,7 +347,8 @@
         }
 
         .NameFormValue{
-          width: 100%;
+          background-color: rgb(222, 221, 221);
+          width: 65%;
           border: none;
           border-bottom: 5px solid;
           border-image: linear-gradient(to right, black, red);
@@ -368,14 +367,15 @@
         margin-top: 5%;
         .PhoneFormText{
           color: white;
-          font-size: 70%;
+          font-size: 60%;
           margin-right: 2%;
           font-family: "CompagnonMedium";
           width: 35%;
           text-align: right;
         }
         .PhoneFormValue{
-          width: 100%;
+          background-color: rgb(222, 221, 221);
+          width: 65%;
           border: none;
           border-bottom: 5px solid;
           border-image: linear-gradient(to right, black, red);
@@ -394,14 +394,15 @@
         margin-top: 5%;
         .EmailFormText{
           color: white;
-          font-size: 70%;
+          font-size: 60%;
           margin-right: 2%;
           font-family: "CompagnonMedium";
           width: 35%;
           text-align: right;
         }
         .EmailFormValue{
-          width: 100%;
+          background-color: rgb(222, 221, 221);
+          width: 65%;
           border: none;
           border-bottom: 5px solid;
           border-image: linear-gradient(to right, black, red);
@@ -422,14 +423,15 @@
 
         .DiscripFormText{
           color: white;
-          font-size: 70%;
+          font-size: 60%;
           margin-right: 2%;
           font-family: "CompagnonMedium";
           width: 35%;
           text-align: right;
         }
         .DiscripFormValue{
-          width: 100%;
+          background-color: rgb(222, 221, 221);
+          width: 65%;
           height: 100%;
           border: none;
           border-bottom: 5px solid;
