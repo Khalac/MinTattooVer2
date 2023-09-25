@@ -335,11 +335,12 @@
       height: 20%;
       display: flex;
       flex-direction: column;
-      margin-left: 5%;
+      margin-left: 4%;
       .NameForm{
         width: 90%;
         display: flex;
         flex-direction: row;
+        height: 9%;
         .NameFormText{
           color: white;
           font-size: 50%;
@@ -369,6 +370,7 @@
         display: flex;
         flex-direction: row;
         margin-top: 5%;
+        height: 9%;
         .PhoneFormText{
           color: white;
           font-size: 50%;
@@ -396,6 +398,7 @@
         display: flex;
         flex-direction: row;
         margin-top: 5%;
+        height: 9%;
         .EmailFormText{
           color: white;
           font-size: 50%;
@@ -424,7 +427,7 @@
         flex-direction: row;
         margin-top: 5%;
         height: 30%;
-
+        
         .DiscripFormText{
           color: white;
           font-size: 50%;
@@ -455,8 +458,9 @@
       justify-content: center;
       align-items: center;
       height: 2%;
+      margin-top: 5%;
       .ButtonBooking{
-        width: 20%;
+        width: 17%;
         font-size: 70%;
         font-family: "CompagnonMedium";
         text-align: center;
@@ -464,12 +468,13 @@
     }
     .BookingDes
       {
+        margin-top: 5%;
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
         text-align: center;
-        margin-top: 5%;
+        margin-bottom: 5%;
         height: 3%;
         .BookingDesText{
           width: 80%;

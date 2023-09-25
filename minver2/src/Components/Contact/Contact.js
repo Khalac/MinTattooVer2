@@ -93,16 +93,16 @@ function Contact() {
           <div className="DiscripFormText">DISCRIPTION:</div>
           <textarea className="DiscripFormValue" rows="2" cols="50" />
         </div>
-      </div>
-      <div className="BookingButton">
-        <button className="ButtonBooking" onClick={() => SendEmail()}>
-          BOOKING
-        </button>
-      </div>
-      <div className="BookingDes">
-        <div className="BookingDesText">
-          Please tell us about your ideas, style, size, color, placement, and
-          your budget
+        <div className="BookingDes">
+          <div className="BookingDesText">
+            Please tell us about your ideas, style, size, color, placement, and
+            your budget
+          </div>
+        </div>
+        <div className="BookingButton">
+          <button className="ButtonBooking" onClick={() => SendEmail()}>
+            BOOKING
+          </button>
         </div>
       </div>
     </div>

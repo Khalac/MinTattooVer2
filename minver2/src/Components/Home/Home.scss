@@ -95,31 +95,28 @@
     background-size: cover;
     height: 100%;
     .HomeBanner{
-      height: 12%;
-      background-image: url('../assets/bg/bg2.jpg');
+      height: 15%;
+      background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('../assets/bg/bn.jpg');
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       display: flex;
       flex-direction: column;
       border: 1px solid gray;
-
+      justify-content: end;
       .BannerText1{
-        position: relative;
-        top: 60%;
-        margin-left: 10%;
+        margin-left: 5%;
         color: white;
         font-size: 150%;
         font-family: "CompagnonMedium";
 
       }
       .BannerText2{
-        position: relative;
-        top: 60%;
-        margin-left: 18%;
+        
+        margin-left: 13%;
         color: white;
-        margin-bottom: 5%;
-        font-size: 170%;
+        margin-bottom: 2%;
+        font-size: 160%;
         font-family: "clesmont";
       }
     }
