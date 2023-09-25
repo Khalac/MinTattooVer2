@@ -115,13 +115,14 @@
         }
         .MinimumPrice{
           display: flex;
-          text-align: center;
+          text-align: left;
           justify-content: center;
           align-items: center;
-
           height: 70%;
           font-family: "CompagnonMedium";
           font-size: 50%;
+          width: 90%;
+          margin-left: 5%;
 
           color: white;
           
@@ -149,8 +150,10 @@
           height: 70%;
           font-family: "CompagnonMedium";
           font-size: 50%;
-          text-align: center;
+          text-align: left;
           color: white;
+          width: 90%;
+          margin-left: 5%;
 
         }
       }
@@ -173,12 +176,13 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          text-align: center;
+          text-align: left;
           height: 70%;
           font-family: "CompagnonMedium";
           font-size: 50%;
           color: white;
-
+          width: 90%;
+          margin-left: 5%;
         }
       }
     }
@@ -211,7 +215,7 @@
             font-size: 140%;
             color: #f84141;
 
-            margin-right: 6%;
+            margin-right: 4%;
           }
         
         .AddressText{
@@ -300,13 +304,12 @@
       position: absolute;
       top:27%;
       right: 5%;
-      width: 47%;
+      width: 52%;
       height: 23%;
       background-color: #CC6666;
       display: flex;
       flex-direction: column;
       text-align: center;
-
       align-items: center;
         .MapLogo{
           width: 70%;
@@ -321,37 +324,38 @@
     }
     .BookingText{
       width: 100%;
-      font-size: 130%;
+      font-size: 110%;
       font-family: "clesmont";
       color: #f83939;
       text-align: center;
     }
     .BookingForm{
       margin-top: 10%;
-      width: 100%;
-      height: 30%;
+      width: 95%;
+      height: 20%;
       display: flex;
       flex-direction: column;
+      margin-left: 5%;
       .NameForm{
-        width: 85%;
+        width: 90%;
         display: flex;
         flex-direction: row;
         .NameFormText{
           color: white;
-          font-size: 60%;
+          font-size: 50%;
           margin-right: 2%;
           font-family: "CompagnonMedium";
-          width: 35%;
+          width: 20%;
           text-align: right;
           
         }
 
         .NameFormValue{
           background-color: rgb(222, 221, 221);
-          width: 65%;
+          width: 75%;
           border: none;
           border-bottom: 5px solid;
-          border-image: linear-gradient(to right, black, red);
+          border-image: linear-gradient(to right, gray, red);
           border-image-slice: 1;
           font-size: 70%;
           font-family: "inherit";
@@ -361,24 +365,24 @@
         }
       }
       .PhoneForm{
-        width: 85%;
+        width: 90%;
         display: flex;
         flex-direction: row;
         margin-top: 5%;
         .PhoneFormText{
           color: white;
-          font-size: 60%;
+          font-size: 50%;
           margin-right: 2%;
           font-family: "CompagnonMedium";
-          width: 35%;
+          width: 20%;
           text-align: right;
         }
         .PhoneFormValue{
           background-color: rgb(222, 221, 221);
-          width: 65%;
+          width: 75%;
           border: none;
           border-bottom: 5px solid;
-          border-image: linear-gradient(to right, black, red);
+          border-image: linear-gradient(to right, gray, red);
           border-image-slice: 1;
           font-size: 70%;
           font-family: "inherit";
@@ -388,24 +392,24 @@
         }
       }
       .EmailForm{
-        width: 85%;
+        width: 90%;
         display: flex;
         flex-direction: row;
         margin-top: 5%;
         .EmailFormText{
           color: white;
-          font-size: 60%;
+          font-size: 50%;
           margin-right: 2%;
           font-family: "CompagnonMedium";
-          width: 35%;
+          width: 20%;
           text-align: right;
         }
         .EmailFormValue{
           background-color: rgb(222, 221, 221);
-          width: 65%;
+          width: 75%;
           border: none;
           border-bottom: 5px solid;
-          border-image: linear-gradient(to right, black, red);
+          border-image: linear-gradient(to right, gray, red);
           border-image-slice: 1;
           font-size: 70%;
           font-family: "inherit";
@@ -415,7 +419,7 @@
         }
       }
       .DiscripForm{
-        width: 85%;
+        width: 90%;
         display: flex;
         flex-direction: row;
         margin-top: 5%;
@@ -423,19 +427,19 @@
 
         .DiscripFormText{
           color: white;
-          font-size: 60%;
+          font-size: 50%;
           margin-right: 2%;
           font-family: "CompagnonMedium";
-          width: 35%;
+          width: 20%;
           text-align: right;
         }
         .DiscripFormValue{
           background-color: rgb(222, 221, 221);
-          width: 65%;
-          height: 100%;
+          width: 75%;
+          height: 70%;
           border: none;
           border-bottom: 5px solid;
-          border-image: linear-gradient(to right, black, red);
+          border-image: linear-gradient(to right, gray, red);
           border-image-slice: 1;
           font-size: 80%;
           font-family: "inherit";
@@ -444,18 +448,17 @@
           }
         }
       }
-      .BookingButton{
-        margin-top: 10%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .ButtonBooking{
-          width: 20%;
-          font-size: 70%;
-          font-family: "CompagnonMedium";
-          text-align: center;
-        }
+    }
+    .BookingButton{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .ButtonBooking{
+        width: 20%;
+        font-size: 70%;
+        font-family: "CompagnonMedium";
+        text-align: center;
       }
     }
     .BookingDes
@@ -465,6 +468,7 @@
         justify-content: center;
         width: 100%;
         text-align: center;
+        margin-top: 5%;
         .BookingDesText{
           width: 80%;
           font-size: 50%;
