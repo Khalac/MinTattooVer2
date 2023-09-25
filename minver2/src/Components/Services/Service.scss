@@ -30,17 +30,21 @@
         font-size: 65%;
       }
     }
-    .ServiceButton{
-      font-size: 60%;
+    .ServiceButtonDiv{
+      height: 5%;
       margin-top: 5%;
       margin-right: 7%;
-      align-items: left;
-      color:#CC6666;
-      text-decoration: none;
-      border-bottom: 1px solid #CC6666;
-      float: right;
-      font-family: "CompagnonMedium";
-
+      .ServiceButton{
+        font-size: 60%;
+        align-items: left;
+        color:#CC6666;
+        text-decoration: none;
+  
+        border-bottom: 1px solid #CC6666;
+        float: right;
+        font-family: "CompagnonMedium";
+        
+      }
     }
     .OurService{
       text-align: center;
