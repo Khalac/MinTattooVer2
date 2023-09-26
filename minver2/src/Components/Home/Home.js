@@ -26,11 +26,11 @@ function Home() {
           </div>
           <div className="AboutInfor">
             <div className="ArtistInfor">
-              <div className="ArtistNum">5+</div>
+              <div className="ArtistNum">5</div>
               <div className="ArtistText">ARTIST</div>
             </div>
             <div className="ExperInfor">
-              <div className="ExperNum">7+</div>
+              <div className="ExperNum">7</div>
               <div className="ExperText">YRS EXPERIENCE</div>
             </div>
           </div>

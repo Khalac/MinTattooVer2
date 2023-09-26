@@ -457,10 +457,13 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 2%;
-      margin-top: 5%;
+      height: 10%;
+      margin-top: 2%;
+      border: none;
       .ButtonBooking{
-        width: 17%;
+        border-radius: 5px;
+        height: 100%;
+        width: 16%;
         font-size: 70%;
         font-family: "CompagnonMedium";
         display: flex;

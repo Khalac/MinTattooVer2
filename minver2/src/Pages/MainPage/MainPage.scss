@@ -89,10 +89,9 @@ body {
     height: 50%;
   }
   .MP_Img{
-
-    height: 20%;
-    background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('../../Components/assets/bg/banner.jpg');
-  background-position: center;
+  height: 15%;
+  background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('../../Components/assets/bg/banner.jpg');
+  background-position: 50% 90%;
   background-repeat: no-repeat;
   background-size: cover;
   
