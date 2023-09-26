@@ -340,7 +340,7 @@
         width: 90%;
         display: flex;
         flex-direction: row;
-        height: 10%;
+        height: 7%;
         .NameFormText{
           color: white;
           font-size: 50%;
@@ -352,6 +352,7 @@
         }
 
         .NameFormValue{
+          height: 100%;
           background-color: rgb(222, 221, 221);
           width: 75%;
           border: none;
@@ -370,7 +371,7 @@
         display: flex;
         flex-direction: row;
         margin-top: 5%;
-        height: 10%;
+        height: 7%;
         .PhoneFormText{
           color: white;
           font-size: 50%;
@@ -380,6 +381,7 @@
           text-align: right;
         }
         .PhoneFormValue{
+          height: 100%;
           background-color: rgb(222, 221, 221);
           width: 75%;
           border: none;
@@ -398,7 +400,7 @@
         display: flex;
         flex-direction: row;
         margin-top: 5%;
-        height: 10%;
+        height: 7%;
         .EmailFormText{
           color: white;
           font-size: 50%;
@@ -408,6 +410,7 @@
           text-align: right;
         }
         .EmailFormValue{
+          height: 100%;
           background-color: rgb(222, 221, 221);
           width: 75%;
           border: none;
@@ -426,7 +429,7 @@
         display: flex;
         flex-direction: row;
         margin-top: 5%;
-        height: 30%;
+        height: 35%;
         
         .DiscripFormText{
           color: white;
@@ -437,9 +440,10 @@
           text-align: right;
         }
         .DiscripFormValue{
+
           background-color: rgb(222, 221, 221);
           width: 75%;
-          height: 70%;
+          height: 80%;
           border: none;
           border-bottom: 5px solid;
           border-image: linear-gradient(to right, gray, red);
