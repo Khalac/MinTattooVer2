@@ -463,7 +463,9 @@
         width: 17%;
         font-size: 70%;
         font-family: "CompagnonMedium";
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
     .BookingDes
