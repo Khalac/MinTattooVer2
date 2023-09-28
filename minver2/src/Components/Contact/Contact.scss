@@ -1,74 +1,431 @@
 @media screen and (min-width: 992px){
   .Contact{
     height: 100%;
-    background-color: black;
-    color: white;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255,255,255,0.3)),url('../assets/bg/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    .ContactText{
-      height: 5%;
-      margin-bottom: 5%;
+    .PricingText{
+      height: 10%;
       display: flex;
-      align-items: center;
       justify-content: center;
-      font-size: 300%;
-      font-family: 'Kaushan Script', cursive;
+      align-items: center;
+      .Pricing{
+        color: white;
+        font-family: "clesmont";
+        font-size: 200%;
+      }
     }
-    .MapAndInfor{
-      height: 60%;
+    .PricingTable{
       width: 100%;
+      height: 15%;
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
-      .Map{
-        width: 40%;
-        height: 100%;
-        background-color: gray;
-        .gg_map{
-          height: 100%;
+      justify-content: center;
+
+      .Minimum{
+        height: 70%;
+        width: 30%;
+        background-color: rgb(190, 189, 189);
+        .MinimumText{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: rgb(141, 1, 1);
+          font-family: "CompagnonMedium";
+          height: 30%;
+          text-align: center;
+          border-bottom: 2px solid rgb(243, 131, 131);
+          font-size: 150%;
+        }
+        .MinimumPrice{
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+          height: 70%;
+          font-family: "CompagnonMedium";
+          font-size: 100%;
           width: 100%;
+          color: white;
+          
         }
       }
-      .Infor{
+      .Middle{
+        height: 70%;
         width: 30%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        text-align: left;
-        .Location{
-          height: 50%;
+        background-color: rgb(161, 159, 159);
+        .MiddleText{
           display: flex;
-          flex-direction: column;
-          text-align: left;
-          .LocationTitle{
-            font-size: 130%;
-            color: rgb(246, 246, 156);
-          }
+          justify-content: center;
+          align-items: center;
+          color: rgb(141, 1, 1);
+          font-family: "CompagnonMedium";
+          height: 30%;
+          text-align: center;
+          border-bottom: 2px solid red;
+          font-size: 150%;
         }
-        .StudioHour{
-          height: 50%;
+        .MiddlePrice{
           display: flex;
-          flex-direction: column;
-          text-align: left;
-          .StudioHourTitle{
-            font-size: 130%;
-            color: rgb(246, 246, 156);
-          }
+          justify-content: center;
+          align-items: center;
+          height: 70%;
+          font-family: "CompagnonMedium";
+          font-size: 100%;
+          text-align: center;
+          color: white;
+          width: 100%;
+
+
+        }
+      }
+      .High{
+        height: 70%;
+        width: 30%;
+        background-color: rgb(121, 120, 120);
+        .HighText{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: rgb(141, 1, 1);
+          font-family: "CompagnonMedium";
+          height: 30%;
+          text-align: center;
+          border-bottom: 2px solid rgb(153, 1, 1);
+          font-size: 150%;
+        }
+        .HighPrice{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          height: 70%;
+          font-family: "CompagnonMedium";
+          font-size: 100%;
+          color: white;
+
+
         }
       }
     }
-    .ContactEnd{
+    .ContactText{
+      width: 100%;
+      font-size: 300%;
+      font-family: "clesmont";
+      color: #330000;
+      text-align: center;
+    }
+
+    .ContactInfo{
+      width: 100%;
+      height: 25%;
+      .ContactInfoList{
+      width: 60%;
+      height: 70%;
       display: flex;
-      height: 10%;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-top: 10%;
+      margin-left: 5%;
+
+      .AddressInfo{
+        width: 50%;
+        height: 10%;
+        display: flex;
+
+          .AddressIcon{
+            font-size: 200%;
+            color: #f84141;
+            padding-top: 3%;
+            margin-right: 4%;
+          }
+        
+        .AddressText{
+          color: white;
+          font-family: "CompagnonMedium";
+          font-size: 150%;
+        }
+      }
+      .EmailInfo{
+        margin-top: 3%;
+        width: 60%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+       
+          .EmailIcon{
+            font-size: 180%;
+            margin-right: 3%;
+            color: #f84141;
+          }
+        
+        .EmailText{
+          color: white;
+          font-family: "CompagnonMedium";
+          font-size: 150%;
+        }
+      }
+      .PhoneInfo{
+        width: 60%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+       
+          .PhoneIcon{
+            font-size: 180%;
+            margin-right: 3%;
+            color:#f84141;
+          }
+        
+        .PhoneText{
+          color: white;
+          font-family: "CompagnonMedium";
+          font-size: 150%;
+        }
+      }
+      .TimeInfo{
+        width: 60%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+        
+          .TimeIcon{
+            font-size: 180%;
+            margin-right: 4%;
+            color: #f84141;
+          }
+        
+        .TimeText{
+          color: white;
+          font-family: "CompagnonMedium";
+          font-size: 150%;
+        }
+      }
+      .WebInfo{
+        width: 60%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+       
+          .WebIcon{
+            font-size: 180%;
+            margin-right: 4%;
+            color: #f84141;
+          }
+        
+        .WebText{
+          color: white;
+          font-family: "CompagnonMedium";
+          font-size: 150%;
+        }
+      }
+      }
+    }
+    .ContactMap{
+      margin-top: 10%;
+      position: absolute;
+      top:25%;
+      right: 5%;
+      width: 50%;
+      height: 23%;
+      background-color: #CC6666;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+        .MapLogo{
+          width: 50%;
+          height: 15%;
+        }
+        .GoogleMap{
+          width: 100%;
+          height: 100%;
+          border: none;
+        }
+
+    }
+    .BookingText{
+      width: 100%;
+      font-size: 200%;
+      font-family: "clesmont";
+      color: #f83939;
+      text-align: center;
+    }
+    .BookingForm{
+      margin-top: 5%;
+      width: 100%;
+      height: 30%;
+      display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-      .ContactLine{
-        margin-top: 10%;
-      height: 2px;
-      width: 40%;
-      background-color: rgb(172, 169, 169);
+      .NameForm{
+        margin-left: 5%;
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        height: 10%;
+        .NameFormText{
+          color: white;
+          font-size: 100%;
+          margin-right: 2%;
+          font-family: "CompagnonMedium";
+          width: 10%;
+          text-align: right;
+
+        }
+
+        .NameFormValue{
+          height: 100%;
+          background-color: rgb(222, 221, 221);
+          width: 75%;
+          border: none;
+          border-bottom: 5px solid;
+          border-image: linear-gradient(to right, gray, red);
+          border-image-slice: 1;
+          font-size: 100%;
+          font-family: "inherit";
+          border-radius: 0px;
+          &:focus{
+            outline: none;
+          }
+        }
+      }
+      .PhoneForm{
+        margin-left: 5%;
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+        height: 10%;
+        .PhoneFormText{
+          color: white;
+          font-size: 100%;
+          margin-right: 2%;
+          font-family: "CompagnonMedium";
+          width: 10%;
+          text-align: right;
+        }
+        .PhoneFormValue{
+          height: 100%;
+          background-color: rgb(222, 221, 221);
+          width: 75%;
+          border: none;
+          border-bottom: 5px solid;
+          border-image: linear-gradient(to right, gray, red);
+          border-image-slice: 1;
+          font-size: 100%;
+          font-family: "inherit";
+          border-radius: 0px;
+          &:focus{
+            outline: none;
+          }
+        }
+      }
+      .EmailForm{
+        margin-left: 5%;
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+        height: 10%;
+        .EmailFormText{
+          color: white;
+          font-size: 100%;
+          margin-right: 2%;
+          font-family: "CompagnonMedium";
+          width: 10%;
+          text-align: right;
+        }
+        .EmailFormValue{
+          
+          height: 100%;
+          background-color: rgb(222, 221, 221);
+          width: 75%;
+          border: none;
+          border-bottom: 5px solid;
+          border-image: linear-gradient(to right, gray, red);
+          border-image-slice: 1;
+          font-size: 100%;
+          font-family: "inherit";
+          border-radius: 0px;
+          &:focus{
+            outline: none;
+          }
+        }
+      }
+      .DiscripForm{
+        margin-left: 5%;
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+        height: 40%;
+        
+        .DiscripFormText{
+          color: white;
+          font-size: 100%;
+          margin-right: 2%;
+          font-family: "CompagnonMedium";
+          width: 10%;
+          text-align: right;
+        }
+        .DiscripFormValue{
+          background-color: rgb(222, 221, 221);
+          width: 75%;
+          height: 100%;
+          border: none;
+          border-bottom: 5px solid;
+          border-image: linear-gradient(to right, gray, red);
+          border-image-slice: 1;
+          font-size: 100%;
+          font-family: "inherit";
+          border-radius: 0px;
+          &:focus{
+            outline: none;
+          }
+        }
       }
     }
+    .BookingButton{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 10%;
+      .ButtonBooking{
+        border-radius: 5px;
+        height: 100%;
+        width: 10%;
+        font-size: 100%;
+        font-family: "CompagnonMedium";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .BookingDes
+      {
+        margin-top: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5%;
+        height: 3%;
+        .BookingDesText{
+          width: 80%;
+          font-size: 100%;
+          color: white;
+          font-family: "CompagnonMedium";
+        }
+
+      }
   }
 }
 @media screen and (max-width: 844px){

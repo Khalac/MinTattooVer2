@@ -48,27 +48,39 @@ body {
 @media screen and (min-width: 992px){
   .MainPage{
     height: 100vh;
-    width: 100vw;
+
   }
   .MP_Header{
-    height: 30%;
-    width: 100%;
+    height: 35%;
+
   }
   .MP_Home{
-    height: 200%;
-    width: 100%;
+    height: 450%;
+
   }
   .MP_Artist{
-    height: 300%;
+    height: 400%;
   }
   .MP_About{
     height: 150%;
   }
+  .MP_Service{
+
+    height: 100%;
+  }
+  .MP_Img{
+    height: 50%;
+    background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('../../Components/assets/bg/banner.jpg');
+    background-position: 70% 90%;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    
+    }
   .MP_Contact{
-    height: 70%;
+    height: 250%;
   }
   .MP_FAQ{
-    height: 100%;
+    height: 130%;
   }
 }
 

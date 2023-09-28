@@ -1,53 +1,40 @@
 
 @media screen and (min-width: 992px){
   .Header{
-    width: 100%;
     height: 100%;
     color: white;
-    background-color: black;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.062), rgba(255, 255, 255, 0.062)),url('../assets/bg/bg.jpg');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    
   }
-  .Wellcome_PageName{
-    height: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Lisu Bosa', serif;
-    .Wellcome{
-      padding-top: 4%;
-      padding-bottom: 1%;
-      font-size: 200%;
-    }
-    .PageName{
-      padding-bottom: 2%;
-      font-size: 250%;
-    }
-  }
+ 
   .Pages{
-    height: 20%;
-    width: 100%;
+    height: 10%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: gray;
-    margin-top: 3%;
+    padding-top: 4%;
     .Page{
-      margin-left: 7%;
-      margin-right: 7%;
-      font-size: 180%;
-    }
-    &:hover{
+      font-family: 'Noto Sans Multani', sans-serif;
+      margin-left: 3%;
+      margin-right: 3%;
+      font-weight: bold;
+      font-size: 100%;
+      font-family: "BioRhymeExpandedLight";
+    }&:hover{
       cursor: pointer;
     }
   }
   .TattooStu{
-    height: 35%;
+    height: 80%;
+    font-size: 600%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Kalam', cursive;
-    font-size: 150%;
+    font-family: "Ramelik";
   }
   
 }
@@ -59,17 +46,6 @@
     color: white;
     background-image: linear-gradient(rgba(255, 255, 255, 0.062), rgba(255, 255, 255, 0.062)),url('../assets/bg/bg.jpg');
     
-  }
-  .Wellcome_PageName{
-    height: 75%;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    background-image: url('../assets/bg/bg1.jpg');
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   .Pages{
     height: 10%;

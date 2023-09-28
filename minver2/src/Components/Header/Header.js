@@ -33,8 +33,8 @@ function Header() {
           src={logo}
           alt="logo"
           className="logoHeader"
-          width={90}
-          height={60}
+          width={180}
+          height={150}
         />
         <div className="Page" onClick={scrollToContact}>
           Contact
