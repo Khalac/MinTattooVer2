@@ -29,13 +29,7 @@ function Header() {
         <div className="Page" onClick={scrollToArtist}>
           Artist
         </div>
-        <img
-          src={logo}
-          alt="logo"
-          className="logoHeader"
-          width={180}
-          height={150}
-        />
+        <img src={logo} alt="logo" className="logoHeader" />
         <div className="Page" onClick={scrollToContact}>
           Contact
         </div>
