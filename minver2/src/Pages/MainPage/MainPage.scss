@@ -50,12 +50,24 @@ body {
     height: 100vh;
 
   }
+  .MP_CommingSoon{
+    height: 5%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .CommingSoonText{
+      color: white;
+      font-size: 70%;
+      font-family: "CompagnonMedium";
+    }
+  }
   .MP_Header{
     height: 35%;
 
   }
   .MP_Home{
-    height: 450%;
+    height: 400%;
 
   }
   .MP_Artist{
@@ -71,13 +83,13 @@ body {
   .MP_Img{
     height: 50%;
     background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('../../Components/assets/bg/banner.jpg');
-    background-position: 70% 90%;
+    background-position: 50% 80%;
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: cover;
     
     }
   .MP_Contact{
-    height: 250%;
+    height: 180%;
   }
   .MP_FAQ{
     height: 130%;
@@ -87,6 +99,18 @@ body {
 @media screen and (max-width: 768px){
   .MainPage{
     height: 100vh;
+  }
+  .MP_CommingSoon{
+    height: 3%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .CommingSoonText{
+      color: white;
+      font-size: 50%;
+      font-family: "CompagnonMedium";
+    }
   }
   .MP_Header{
 

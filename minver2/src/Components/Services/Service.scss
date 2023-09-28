@@ -18,7 +18,7 @@
       height: 20%;
       .ServiceText1{
         font-style: italic;
-        width: 90%;
+        width: 80%;
         color: white;
         font-family: "CompagnonMedium";
         font-size: 150%;
@@ -27,7 +27,7 @@
       .ServiceText2{
         font-style: italic;
         margin-top: 3%;
-        width: 90%;
+        width: 80%;
         color: white;
         font-family: "CompagnonMedium";
         font-size: 150%;
@@ -37,7 +37,7 @@
     .ServiceButtonDiv{
       height: 5%;
       margin-top: 2%;
-      margin-right: 7%;
+      margin-right: 10%;
       .ServiceButton{
         font-style: italic;
         font-size: 150%;
@@ -64,7 +64,7 @@
       height: 40%;
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: space-evenly;
 
       .TattooService{
         display: flex;

@@ -12,25 +12,25 @@
       font-size: 200%;
       font-family: "clesmont";
       padding-top: 5%;
-      padding-left: 5%;
+      padding-left: 10%;
       height: 5%;
     }
     .Brother{
-      width: 40%;
+      width: 35%;
       height: 25%;
       display: flex;
       flex-direction: column;
       position: absolute;
       top: 8%;
-      left: 6%;
+      left: 10%;
       .BrotherImg{
         width: 100%;
-        height: 85%;
+        height: 80%;
         background-image: url('../assets/imgBrother/MinImg.JPG');
 
         background-repeat: no-repeat;
-        background-size: 150%;
-        background-position: 50% 30%;
+        background-size: 110%;
+        background-position: 50% 80%;
       }
       .BrotherName{
        .BrName{
@@ -58,19 +58,19 @@
       }
     }
     .Aaron{
-      width: 40%;
+      width: 35%;
       height: 25%;
       display: flex;
       flex-direction: column;
       position: absolute;
       top: 25%;
-      right: 6%;
+      right: 10%;
       .AaronImg{
         width: 100%;
-        height: 85%;
+        height: 80%;
         background-image: url('../assets/AARON/AaronImg.JPG');
-        background-size: 150%;
-        background-position: 40% 20%;
+        background-size: 110%;
+        background-position: 20% 40%;
         background-repeat: no-repeat;
 
       }
@@ -100,19 +100,19 @@
       }
     }
     .Anet{
-      width: 40%;
+      width: 35%;
       height: 25%;
       display: flex;
       flex-direction: column;
       position: absolute;
       top: 40%;
-      left: 6%;
+      left: 10%;
       .AnetImg{
         width: 100%;
-        height: 85%;
+        height: 80%;
         background-image: url('../assets/Anet/AnetImg.JPG');
-        background-size: 150%;
-        background-position: 50% 40%;
+        background-size: 110%;
+        background-position: 50% 90%;
         background-repeat: no-repeat;
 
       }
@@ -142,20 +142,20 @@
       }
     }
     .Nicole{
-      width: 40%;
+      width: 35%;
       height: 25%;
       display: flex;
       flex-direction: column;
       position: absolute;
       top: 55%;
-      right: 6%;
+      right: 10%;
       .NicoleImg{
         width: 100%;
-        height: 85%;
+        height: 80%;
         background-image: url('../assets/Nicole/NicoleImg.JPG');
         background-repeat: no-repeat;
-        background-size: 150%;
-        background-position: 20% 30%;
+        background-size: 110%;
+        background-position: 5% 70%;
       }
       .NicoleName{
        .NicoleName{
@@ -183,20 +183,20 @@
       }
     }
     .Benjamin{
-      width: 40%;
+      width: 35%;
       height: 25%;
       display: flex;
       flex-direction: column;
       position: absolute;
       top: 70%;
-      left: 6%;
+      left: 10%;
       .BenjaminImg{
         width: 100%;
-        height: 85%;
+        height: 80%;
         background-image: url('../assets/Benjamin/BenImg.JPG');
-        background-position: 45% 30%;
+        background-position: 20% 80%;
         background-repeat: no-repeat;
-        background-size: 150%;
+        background-size: 110%;
       }
       .BenjaminName{
        .BenjaminName{

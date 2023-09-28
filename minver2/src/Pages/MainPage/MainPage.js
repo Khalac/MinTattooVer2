@@ -13,6 +13,9 @@ import Service from "../../Components/Services/Service";
 function MainPage() {
   return (
     <div className="MainPage">
+      <div className="MP_CommingSoon">
+        <div className="CommingSoonText">COMING SOON</div>
+      </div>
       <div className="MP_Header">
         <Header />
       </div>

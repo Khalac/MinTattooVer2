@@ -11,7 +11,7 @@
       justify-content: right;
       font-size: 200%;
 
-      margin-right: 5%;
+      margin-right: 10%;
       color: #CC0000;
       font-family: "clesmont";
     }
@@ -20,7 +20,7 @@
       justify-content: right;
       font-size: 100%;
       margin-bottom: 5%;
-      margin-right: 5%;
+      margin-right: 10%;
       color: white;
       font-family: "CompagnonMedium";
     }
@@ -31,14 +31,14 @@
           background: transparent;
           border: none;
           cursor: pointer;
-          width: 95%;
+          width: 82%;
           .question-align {
             align-items: center;
             display: flex;
             max-height: 500px;
             text-align: left;
 
-            background-color:#B50404;
+            background-color:#b50404b4;
             h4 {
               margin-left: 2%;
             }
