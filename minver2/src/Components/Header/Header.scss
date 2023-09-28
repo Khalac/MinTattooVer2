@@ -15,12 +15,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 4%;
     .Page{
       font-family: 'Noto Sans Multani', sans-serif;
-      margin-left: 8%;
-      margin-right: 8%;
       font-weight: bold;
       font-size: 100%;
       font-family: "BioRhymeExpandedLight";

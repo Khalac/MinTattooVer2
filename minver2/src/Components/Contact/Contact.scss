@@ -131,7 +131,7 @@
       flex-direction: column;
       justify-content: space-between;
       margin-top: 10%;
-      margin-left: 10%;
+      margin-left: 12%;
 
       .AddressInfo{
         width: 50%;
@@ -142,7 +142,7 @@
             font-size: 200%;
             color: #f84141;
             padding-top: 3%;
-            margin-right: 4%;
+            margin-right: 10%;
           }
         
         .AddressText{
@@ -160,7 +160,7 @@
        
           .EmailIcon{
             font-size: 180%;
-            margin-right: 3%;
+            margin-right: 7%;
             color: #f84141;
           }
         
@@ -178,7 +178,7 @@
        
           .PhoneIcon{
             font-size: 180%;
-            margin-right: 3%;
+            margin-right: 7%;
             color:#f84141;
           }
         
@@ -196,7 +196,7 @@
         
           .TimeIcon{
             font-size: 180%;
-            margin-right: 4%;
+            margin-right: 7%;
             color: #f84141;
           }
         
@@ -214,7 +214,7 @@
        
           .WebIcon{
             font-size: 180%;
-            margin-right: 4%;
+            margin-right: 7%;
             color: #f84141;
           }
         
@@ -231,8 +231,8 @@
       position: absolute;
       top:25%;
       right: 10%;
-      width: 40%;
-      height: 25%;
+      width: 50%;
+      height: 26%;
       background-color: #CC6666;
       display: flex;
       flex-direction: column;
@@ -259,18 +259,19 @@
     }
     .BookingForm{
       margin-top: 3%;
-      width: 100%;
+      margin-left: 10%;
+      width: 80%;
       height: 25%;
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
+      justify-content: center;
       .NameForm{
         margin-left: 5%;
         width: 95%;
         display: flex;
         flex-direction: row;
-        height: 5%;
+        height: 7%;
         .NameFormText{
           color: white;
           font-size: 100%;
@@ -303,7 +304,7 @@
         display: flex;
         flex-direction: row;
         margin-top: 2%;
-        height: 5%;
+        height: 7%;
         .PhoneFormText{
           color: white;
           font-size: 100%;
@@ -334,7 +335,7 @@
         display: flex;
         flex-direction: row;
         margin-top: 2%;
-        height: 5%;
+        height: 7%;
         .EmailFormText{
           color: white;
           font-size: 100%;
