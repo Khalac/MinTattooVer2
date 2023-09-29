@@ -23,6 +23,7 @@ function Artist() {
   return (
     <div className="Artist" id="Artist">
       <div className="ArtistText">OUR ARTIST</div>
+      <div className="BrotherBorder"></div>
       <div className="Brother">
         <div className="BrotherImg"></div>
         <div className="BrotherName">
@@ -32,6 +33,7 @@ function Artist() {
           <div className="BrPorfolio">View porfolio</div>
         </div>
       </div>
+      <div className="AaronBorder"></div>
       <div className="Aaron">
         <div className="AaronImg"></div>
         <div className="AaronName">
@@ -41,6 +43,7 @@ function Artist() {
           <div className="AaronPorfolio">View porfolio</div>
         </div>
       </div>
+      <div className="AnetBorder"></div>
       <div className="Anet">
         <div className="AnetImg"></div>
         <div className="AnetName">
@@ -50,6 +53,7 @@ function Artist() {
           <div className="AnetPorfolio">View porfolio</div>
         </div>
       </div>
+      <div className="NicoleBorder"></div>
       <div className="Nicole">
         <div className="NicoleImg"></div>
         <div className="NicoleName">
@@ -59,6 +63,7 @@ function Artist() {
           <div className="NicolePorfolio">View porfolio</div>
         </div>
       </div>
+      <div className="BenjaminBorder"></div>
       <div className="Benjamin">
         <div className="BenjaminImg"></div>
         <div className="BenjaminName">
