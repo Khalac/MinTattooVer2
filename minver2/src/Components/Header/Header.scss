@@ -7,10 +7,14 @@
     background-position: center ;
     background-repeat: no-repeat;
     background-size: 150%;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
  
   .Pages{
+    width: 80%;
     height: 10%;
     display: flex;
     flex-direction: row;
@@ -21,13 +25,13 @@
       font-family: 'Noto Sans Multani', sans-serif;
       font-weight: bold;
       font-size: 100%;
-      font-family: "BioRhymeExpandedLight";
+      font-family: "BioRhymeExpandedBold";
     }&:hover{
       cursor: pointer;
     }
     .logoHeader{
-      width: 180px;
-      height: 150px;
+      width: 210px;
+      height: 130px;
     }
 
   }

@@ -22,18 +22,22 @@ function Contact() {
       <div className="PricingTable">
         <div className="Minimum">
           <div className="MinimumText">Minimum</div>
-          <div className="MinimumPrice">Shop minimum rate start at 80$</div>
+          <div className="MinimumPrice">
+            {" "}
+            <div>Shop minimum rate start</div>
+            <div>at 80$</div>{" "}
+          </div>
         </div>
         <div className="Middle">
           <div className="MiddleText">Middle</div>
           <div className="MiddlePrice">
-            Shop hourly middle rate at start at 150$
+            <div>Shop hourly middle rate </div> <div>at start at 150$</div>
           </div>
         </div>
         <div className="High">
           <div className="HighText">High</div>
           <div className="HighPrice">
-            Shop hourly high rate at start at 200$
+            <div>Shop hourly high rate</div> <div>at start at 200$</div>
           </div>
         </div>
       </div>

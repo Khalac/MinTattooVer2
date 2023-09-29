@@ -28,7 +28,7 @@
 
       .Minimum{
         height: 70%;
-        width: 25%;
+        width: 20%;
         background-color: rgb(190, 189, 189);
         .MinimumText{
           display: flex;
@@ -42,6 +42,7 @@
           font-size: 150%;
         }
         .MinimumPrice{
+          flex-direction: column;
           display: flex;
           text-align: center;
           justify-content: center;
@@ -56,7 +57,7 @@
       }
       .Middle{
         height: 70%;
-        width: 25%;
+        width: 20%;
         background-color: rgb(161, 159, 159);
         .MiddleText{
           display: flex;
@@ -73,6 +74,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          flex-direction: column;
           height: 70%;
           font-family: "CompagnonMedium";
           font-size: 100%;
@@ -85,7 +87,7 @@
       }
       .High{
         height: 70%;
-        width: 25%;
+        width: 20%;
         background-color: rgb(121, 120, 120);
         .HighText{
           display: flex;
@@ -99,6 +101,7 @@
           font-size: 150%;
         }
         .HighPrice{
+          flex-direction: column;
           width: 100%;
           display: flex;
           justify-content: center;
@@ -131,7 +134,7 @@
       flex-direction: column;
       justify-content: space-between;
       margin-top: 10%;
-      margin-left: 12%;
+      margin-left: 20%;
 
       .AddressInfo{
         width: 50%;
@@ -148,7 +151,7 @@
         .AddressText{
           color: white;
           font-family: "CompagnonMedium";
-          font-size: 150%;
+          font-size: 130%;
         }
       }
       .EmailInfo{
@@ -167,7 +170,7 @@
         .EmailText{
           color: white;
           font-family: "CompagnonMedium";
-          font-size: 150%;
+          font-size: 130%;
         }
       }
       .PhoneInfo{
@@ -185,7 +188,7 @@
         .PhoneText{
           color: white;
           font-family: "CompagnonMedium";
-          font-size: 150%;
+          font-size: 130%;
         }
       }
       .TimeInfo{
@@ -203,7 +206,7 @@
         .TimeText{
           color: white;
           font-family: "CompagnonMedium";
-          font-size: 150%;
+          font-size: 130%;
         }
       }
       .WebInfo{
@@ -221,7 +224,7 @@
         .WebText{
           color: white;
           font-family: "CompagnonMedium";
-          font-size: 150%;
+          font-size: 130%;
         }
       }
       }
@@ -230,8 +233,8 @@
       margin-top: 10%;
       position: absolute;
       top:25%;
-      right: 10%;
-      width: 50%;
+      right: 15%;
+      width: 35%;
       height: 26%;
       background-color: #CC6666;
       display: flex;

@@ -3,27 +3,27 @@
     height: 100%;
     width: 100%;
     background-image: url('../assets/bg/bgline.jpg');
-    background-position: 30% 50%;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     position: relative;
     .ArtistText{
       color: #CC0000;
       font-size: 200%;
       font-family: "clesmont";
-      padding-top: 8%;
-      padding-left: 12%;
+      padding-top: 5%;
+      padding-left: 17%;
       height: 5%;
 
     }
     .Brother{
-      width: 35%;
-      height: 25%;
+      width: 30%;
+      height: 28%;
       display: flex;
       flex-direction: column;
       position: absolute;
       top: 8%;
-      left: 12%;
+      left: 17%;
       .BrotherImg{
         width: 100%;
         height: 80%;
@@ -31,7 +31,7 @@
 
         background-repeat: no-repeat;
         background-size: 110%;
-        background-position: 50% 80%;
+        background-position: 50% 50%;
       }
       .BrotherName{
        .BrName{
@@ -46,7 +46,7 @@
           height: 60%;
           margin-top: 5%;
           text-align: center;
-          width: 35%;
+          width: 45%;
           background-color: #CC6666;
           float: left;
           color: black;
@@ -59,19 +59,19 @@
       }
     }
     .Aaron{
-      width: 35%;
-      height: 25%;
+      width: 30%;
+      height: 28%;
       display: flex;
       flex-direction: column;
       position: absolute;
       top: 25%;
-      right: 12%;
+      right: 17%;
       .AaronImg{
         width: 100%;
         height: 80%;
         background-image: url('../assets/AARON/AaronImg.JPG');
         background-size: 110%;
-        background-position: 20% 40%;
+        background-position: 20% 25%;
         background-repeat: no-repeat;
 
       }
@@ -88,7 +88,7 @@
           height: 60%;
           margin-top: 5%;
           text-align: center;
-          width: 35%;
+          width: 45%;
           background-color: #CC6666;
           float: right;
           color: black;
@@ -101,19 +101,19 @@
       }
     }
     .Anet{
-      width: 35%;
-      height: 25%;
+      width: 30%;
+      height: 28%;
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 40%;
-      left: 12%;
+      top: 39%;
+      left: 17%;
       .AnetImg{
         width: 100%;
         height: 80%;
         background-image: url('../assets/Anet/AnetImg.JPG');
         background-size: 110%;
-        background-position: 50% 90%;
+        background-position: 50% 50%;
         background-repeat: no-repeat;
 
       }
@@ -130,7 +130,7 @@
           height: 60%;
           margin-top: 5%;
           text-align: center;
-          width: 35%;
+          width: 45%;
           background-color: #CC6666;
           float: left;
           color: black;
@@ -143,20 +143,20 @@
       }
     }
     .Nicole{
-      width: 35%;
-      height: 25%;
+      width: 30%;
+      height: 28%;
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 55%;
-      right: 12%;
+      top: 57%;
+      right: 17%;
       .NicoleImg{
         width: 100%;
         height: 80%;
         background-image: url('../assets/Nicole/NicoleImg.JPG');
         background-repeat: no-repeat;
         background-size: 110%;
-        background-position: 5% 70%;
+        background-position: 5% 50%;
       }
       .NicoleName{
        .NicoleName{
@@ -171,7 +171,7 @@
           height: 60%;
           margin-top: 5%;
           text-align: center;
-          width: 35%;
+          width: 45%;
           background-color: #CC6666;
           float: right;
           color: black;
@@ -184,18 +184,18 @@
       }
     }
     .Benjamin{
-      width: 35%;
-      height: 25%;
+      width: 30%;
+      height: 28%;
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 70%;
-      left: 12%;
+      top: 69%;
+      left: 17%;
       .BenjaminImg{
         width: 100%;
         height: 80%;
         background-image: url('../assets/Benjamin/BenImg.JPG');
-        background-position: 20% 80%;
+        background-position: 20% 50%;
         background-repeat: no-repeat;
         background-size: 110%;
       }
@@ -212,7 +212,7 @@
           height: 60%;
           margin-top: 5%;
           text-align: center;
-          width: 35%;
+          width: 45%;
           background-color: #CC6666;
           float: left;
           color: black;
