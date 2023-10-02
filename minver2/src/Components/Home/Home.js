@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.scss";
+import Typewriter from "typewriter-effect";
 
 import { Link } from "react-router-dom";
 
@@ -7,8 +8,30 @@ function Home() {
   return (
     <div className="Home" id="Home">
       <div className="HomeBanner">
-        <div className="BannerText1">Welcome to</div>
-        <div className="BannerText2">HYPER INKER</div>
+        <div className="BannerText1" id="Banner1">
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter.typeString("Welcome to").pauseFor(3000).start();
+            }}
+            options={{
+              cursor: " ",
+            }}
+          />
+        </div>
+        <div className="BannerText2" id="Banner2">
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter
+                .pauseFor(1500)
+                .typeString("HYPER INKER")
+                .pauseFor(500)
+                .start();
+            }}
+            options={{
+              cursor: " ",
+            }}
+          />
+        </div>
       </div>
       <div className="HomeAbout">
         <div className="AboutTitle">ABOUT US</div>

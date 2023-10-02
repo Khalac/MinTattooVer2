@@ -26,8 +26,26 @@
       font-weight: bold;
       font-size: 100%;
       font-family: "BioRhymeExpandedBold";
-    }&:hover{
+      position: relative;
       cursor: pointer;
+      padding: 0 10px;
+      color: rgb(193, 191, 191);
+      &:hover{
+        color: white;
+      }
+      &::after{
+        content: "";
+        position: absolute;
+        background-color: #CC6666;
+        height: 5px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.3s;
+      }
+      &:hover::after{
+        width: 100%;
+      }
     }
     .logoHeader{
       width: 210px;
@@ -68,8 +86,26 @@
       font-weight: bold;
       font-size: 50%;
       font-family: "BioRhymeExpandedLight";
-    }&:hover{
+      position: relative;
       cursor: pointer;
+      padding: 0 10px;
+      color: rgb(193, 191, 191);
+      &:hover{
+        color: white;
+      }
+      &::after{
+        content: "";
+        position: absolute;
+        background-color: #CC6666;
+        height: 2px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.3s;
+      }
+      &:hover::after{
+        width: 100%;
+      }
     }
     .logoHeader{
       width: 90px;

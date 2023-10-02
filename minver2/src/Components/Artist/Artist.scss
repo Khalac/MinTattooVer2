@@ -30,7 +30,7 @@
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 8%;
+      top: 7.4%;
       left: 17%;
       z-index: 2;
       .BrotherImg{
@@ -56,14 +56,36 @@
           margin-top: 5%;
           text-align: center;
           width: 45%;
-          background-color: #CC6666;
+          background: #CC6666;
           float: left;
-          color: black;
           font-family: "CompagnonMedium";
           font-size: 130%;
-        }
-        &:hover{
+          transition: color 0.4s linear;
           cursor: pointer;
+          position: relative;
+
+          &:hover{
+            color: #fff;
+            z-index: 1;
+
+          }
+          &::before{
+            content: "";
+            background: black;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            transition: transform 0.5s;
+            transform-origin: 0 0;
+            transition-timing-function: cubic-bezier(1,1.6,0.4,0.7);
+            transform: scaleX(0);
+          }
+          &:hover::before{
+            transform: scaleX(1);
+          }
         }
       }
     }
@@ -109,14 +131,35 @@
           margin-top: 5%;
           text-align: center;
           width: 45%;
-          background-color: #CC6666;
+          background: #CC6666;
           float: right;
-          color: black;
           font-family: "CompagnonMedium";
           font-size: 130%;
-        }
-        &:hover{
+          transition: color 0.4s linear;
           cursor: pointer;
+          position: relative;
+          &:hover{
+            color: #fff;
+            z-index: 1;
+
+          }
+          &::before{
+            content: "";
+            background: black;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            transition: transform 0.5s;
+            transform-origin: 0 0;
+            transition-timing-function: cubic-bezier(1,1.6,0.4,0.7);
+            transform: scaleY(0);
+          }
+          &:hover::before{
+            transform: scaleY(1);
+          }
         }
       }
     }
@@ -135,7 +178,7 @@
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 39%;
+      top: 39.4%;
       left: 17%;
       z-index: 2;
       .AnetImg{
@@ -167,10 +210,33 @@
           color: black;
           font-family: "CompagnonMedium";
           font-size: 130%;
-        }
-        &:hover{
+          transition: color 0.4s linear;
           cursor: pointer;
+          position: relative;
+          &:hover{
+            color: #fff;
+            z-index: 1;
+
+          }
+          &::before{
+            content: "";
+            background: black;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            transition: transform 0.5s;
+            transform-origin: 0 0;
+            transition-timing-function: cubic-bezier(1,1.6,0.4,0.7);
+            transform: scaleX(0);
+          }
+          &:hover::before{
+            transform: scaleX(1);
+          }
         }
+
       }
     }
     .NicoleBorder{
@@ -219,9 +285,31 @@
           color: black;
           font-family: "CompagnonMedium";
           font-size: 130%;
-        }
-        &:hover{
+          transition: color 0.4s linear;
           cursor: pointer;
+          position: relative;
+          &:hover{
+            color: #fff;
+            z-index: 1;
+
+          }
+          &::before{
+            content: "";
+            background: black;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            transition: transform 0.5s;
+            transform-origin: 0 0;
+            transition-timing-function: cubic-bezier(1,1.6,0.4,0.7);
+            transform: scaleY(0);
+          }
+          &:hover::before{
+            transform: scaleY(1);
+          }
         }
       }
     }
@@ -240,7 +328,7 @@
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 69%;
+      top: 69.3%;
       left: 17%;
       z-index: 2;
       .BenjaminImg{
@@ -271,9 +359,31 @@
           color: black;
           font-family: "CompagnonMedium";
           font-size: 130%;
-        }
-        &:hover{
+          transition: color 0.4s linear;
           cursor: pointer;
+          position: relative;
+          &:hover{
+            color: #fff;
+            z-index: 1;
+
+          }
+          &::before{
+            content: "";
+            background: black;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            transition: transform 0.5s;
+            transform-origin: 0 0;
+            transition-timing-function: cubic-bezier(1,1.6,0.4,0.7);
+            transform: scaleX(0);
+          }
+          &:hover::before{
+            transform: scaleX(1);
+          }
         }
       }
     }
@@ -333,9 +443,32 @@
           color: black;
           font-family: "CompagnonMedium";
           font-size: 70%;
-        }
-        &:hover{
+          transition: color 0.4s linear;
           cursor: pointer;
+          position: relative;
+
+          &:hover{
+            color: #fff;
+            z-index: 1;
+
+          }
+          &::before{
+            content: "";
+            background: black;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            transition: transform 0.5s;
+            transform-origin: 0 0;
+            transition-timing-function: cubic-bezier(1,1.6,0.4,0.7);
+            transform: scaleX(0);
+          }
+          &:hover::before{
+            transform: scaleX(1);
+          }
         }
       }
     }
@@ -375,9 +508,31 @@
           color: black;
           font-family: "CompagnonMedium";
           font-size: 70%;
-        }
-        &:hover{
+          transition: color 0.4s linear;
           cursor: pointer;
+          position: relative;
+          &:hover{
+            color: #fff;
+            z-index: 1;
+
+          }
+          &::before{
+            content: "";
+            background: black;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            transition: transform 0.5s;
+            transform-origin: 0 0;
+            transition-timing-function: cubic-bezier(1,1.6,0.4,0.7);
+            transform: scaleY(0);
+          }
+          &:hover::before{
+            transform: scaleY(1);
+          }
         }
       }
     }
@@ -417,10 +572,34 @@
           color: black;
           font-family: "CompagnonMedium";
           font-size: 70%;
-        }
-        &:hover{
+          transition: color 0.4s linear;
           cursor: pointer;
+          position: relative;
+
+          &:hover{
+            color: #fff;
+            z-index: 1;
+
+          }
+          &::before{
+            content: "";
+            background: black;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            transition: transform 0.5s;
+            transform-origin: 0 0;
+            transition-timing-function: cubic-bezier(1,1.6,0.4,0.7);
+            transform: scaleX(0);
+          }
+          &:hover::before{
+            transform: scaleX(1);
+          }
         }
+
       }
     }
     .Nicole{
@@ -458,9 +637,31 @@
           color: black;
           font-family: "CompagnonMedium";
           font-size: 70%;
-        }
-        &:hover{
+          transition: color 0.4s linear;
           cursor: pointer;
+          position: relative;
+          &:hover{
+            color: #fff;
+            z-index: 1;
+
+          }
+          &::before{
+            content: "";
+            background: black;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            transition: transform 0.5s;
+            transform-origin: 0 0;
+            transition-timing-function: cubic-bezier(1,1.6,0.4,0.7);
+            transform: scaleY(0);
+          }
+          &:hover::before{
+            transform: scaleY(1);
+          }
         }
       }
     }
@@ -499,10 +700,34 @@
           color: black;
           font-family: "CompagnonMedium";
           font-size: 70%;
-        }
-        &:hover{
+          transition: color 0.4s linear;
           cursor: pointer;
+          position: relative;
+
+          &:hover{
+            color: #fff;
+            z-index: 1;
+
+          }
+          &::before{
+            content: "";
+            background: black;
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            transition: transform 0.5s;
+            transform-origin: 0 0;
+            transition-timing-function: cubic-bezier(1,1.6,0.4,0.7);
+            transform: scaleX(0);
+          }
+          &:hover::before{
+            transform: scaleX(1);
+          }
         }
+
       }
     }
   }
