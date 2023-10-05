@@ -21,12 +21,12 @@ function Service() {
     <div className="Service">
       <div className="ServiceText">
         <div className="ServiceText1">
-          Hyper inker is a tattoo brand been found in 2023 from talented artist.
+          Hyper Inker is a tattoo brand been found in 2023 from talented artist.
           We want to build a family and bring you a best service with the best
           work.
         </div>
         <div className="ServiceText2">
-          Hyper inker is a tattoo brand been found in 2023 from talented artist.
+          Hyper Inker is a tattoo brand been found in 2023 from talented artist.
           We want to build a family and bring you a best service with the best
           work.
         </div>

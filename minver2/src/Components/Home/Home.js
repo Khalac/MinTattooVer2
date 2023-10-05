@@ -15,6 +15,8 @@ function Home() {
             }}
             options={{
               cursor: " ",
+              loop: true,
+              deleteSpeed: 20,
             }}
           />
         </div>
@@ -22,13 +24,14 @@ function Home() {
           <Typewriter
             onInit={(typewriter) => {
               typewriter
-                .pauseFor(1500)
+                .pauseFor(1600)
                 .typeString("HYPER INKER")
                 .pauseFor(500)
                 .start();
             }}
             options={{
               cursor: " ",
+              loop: true,
             }}
           />
         </div>

@@ -43,6 +43,7 @@
         background-position: 50% 50%;
       }
       .BrotherName{
+        margin-top: 2%;
        .BrName{
         float: right;
         color: #660000;
@@ -65,13 +66,13 @@
           position: relative;
 
           &:hover{
-            color: #fff;
+            color: black;
             z-index: 1;
 
           }
           &::before{
             content: "";
-            background: black;
+            background: white;
             position: absolute;
             left: 0;
             top: 0;
@@ -118,6 +119,7 @@
 
       }
       .AaronName{
+        margin-top: 2%;
        .AaronName{
         float: right;
         color: #660000;
@@ -139,13 +141,13 @@
           cursor: pointer;
           position: relative;
           &:hover{
-            color: #fff;
+            color: black;
             z-index: 1;
 
           }
           &::before{
             content: "";
-            background: black;
+            background: white;
             position: absolute;
             left: 0;
             top: 0;
@@ -178,7 +180,7 @@
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 39.4%;
+      top: 38.7%;
       left: 17%;
       z-index: 2;
       .AnetImg{
@@ -192,6 +194,7 @@
 
       }
       .AnetName{
+        margin-top: 2%;
        .AnetName{
         float: right;
         color: #660000;
@@ -214,13 +217,13 @@
           cursor: pointer;
           position: relative;
           &:hover{
-            color: #fff;
+            color: black;
             z-index: 1;
 
           }
           &::before{
             content: "";
-            background: black;
+            background: white;
             position: absolute;
             left: 0;
             top: 0;
@@ -267,6 +270,7 @@
 
       }
       .NicoleName{
+        margin-top: 2%;
        .NicoleName{
         float: right;
         color: #660000;
@@ -289,13 +293,13 @@
           cursor: pointer;
           position: relative;
           &:hover{
-            color: #fff;
+            color: black;
             z-index: 1;
 
           }
           &::before{
             content: "";
-            background: black;
+            background: white;
             position: absolute;
             left: 0;
             top: 0;
@@ -318,7 +322,7 @@
       height: 23%;
       border:10px solid#333333;
       position: absolute;
-      top: 72%;
+      top: 72.6%;
       left: 25%;
       z-index: 0;
     }
@@ -341,6 +345,7 @@
 
       }
       .BenjaminName{
+        margin-top: 2%;
        .BenjaminName{
         float: right;
         color: #660000;
@@ -363,13 +368,13 @@
           cursor: pointer;
           position: relative;
           &:hover{
-            color: #fff;
+            color: black;
             z-index: 1;
 
           }
           &::before{
             content: "";
-            background: black;
+            background: white;
             position: absolute;
             left: 0;
             top: 0;
@@ -448,13 +453,13 @@
           position: relative;
 
           &:hover{
-            color: #fff;
+            color: black;
             z-index: 1;
 
           }
           &::before{
             content: "";
-            background: black;
+            background: whites;
             position: absolute;
             left: 0;
             top: 0;
@@ -512,13 +517,13 @@
           cursor: pointer;
           position: relative;
           &:hover{
-            color: #fff;
+            color: black;
             z-index: 1;
 
           }
           &::before{
             content: "";
-            background: black;
+            background: white;
             position: absolute;
             left: 0;
             top: 0;
@@ -577,13 +582,13 @@
           position: relative;
 
           &:hover{
-            color: #fff;
+            color: black;
             z-index: 1;
 
           }
           &::before{
             content: "";
-            background: black;
+            background: white;
             position: absolute;
             left: 0;
             top: 0;
@@ -641,13 +646,13 @@
           cursor: pointer;
           position: relative;
           &:hover{
-            color: #fff;
+            color: black;
             z-index: 1;
 
           }
           &::before{
             content: "";
-            background: black;
+            background: white;
             position: absolute;
             left: 0;
             top: 0;
@@ -705,13 +710,13 @@
           position: relative;
 
           &:hover{
-            color: #fff;
+            color: black;
             z-index: 1;
 
           }
           &::before{
             content: "";
-            background: black;
+            background: white;
             position: absolute;
             left: 0;
             top: 0;
