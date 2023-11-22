@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import Header from "../../Components/Header/Header";
 import "./MainPage.scss";
-
+import { useEffect } from "react";
+import axios from "axios";
 import Home from "../../Components/Home/Home";
 import Artist from "../../Components/Artist/Artist";
 import Contact from "../../Components/Contact/Contact";
@@ -11,6 +12,16 @@ import "../../Components/assets/font/Ramelik.otf";
 import Service from "../../Components/Services/Service";
 
 function MainPage() {
+  const [Email, setEmail] = [];
+  useEffect(() => {
+    axios
+      .get("http://localhost:4400/email")
+      .then((res) => {
+        console.log(res.data.email[0].email);
+      })
+      .catch((err) => console.log(err));
+  }, []);
+
   return (
     <div className="MainPage">
       <div className="MP_CommingSoon">
