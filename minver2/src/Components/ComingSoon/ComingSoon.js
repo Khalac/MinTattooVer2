@@ -11,16 +11,19 @@ import ins from "../assets/imgComingSoon/6.png";
 import phone from "../assets/imgComingSoon/5.png";
 import email from "../assets/imgComingSoon/8.png";
 
+import { notification } from "antd";
+
 function ComingSoon() {
   const [mail, setMail] = useState("");
   console.log(mail);
   const SendEmail = async () => {
     await axios
-      .post("http://localhost:5555/email", {
+      .post("http://localhost:6666/email", {
         mail,
       })
       .then((res) => {
         console.log(res);
+        openNotificationWithIconSuc("success");
         if (res.onSuccess) {
           console.log("Sucess");
         } else {
@@ -29,6 +32,14 @@ function ComingSoon() {
       })
       .catch((err) => console.log("error"));
   };
+
+  const openNotificationWithIconSuc = (type) => {
+    notification[type]({
+      message: "Success",
+      description: "Sent email successfully!",
+    });
+  };
+
   return (
     <div className="ComingSoon">
       <img src={bg} alt="" className="ComingSoon_Bg" />
