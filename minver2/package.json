@@ -15,7 +15,8 @@
     "react-scripts": "5.0.1",
     "sass": "^1.66.0",
     "typewriter-effect": "^2.21.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "proxy": "https://min-tattoo-ver2-ntaj.vercel.app"
   },
   "scripts": {
     "start": "react-scripts start",
