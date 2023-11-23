@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const { Schema } = mongoose;
 
 const uri =
-  "mongodb+srv://dinhanhquoc2525:dinhanhquoc182002@comingsoon.kxtinoj.mongodb.net/Email";
+  "mongodb+srv://dinhanhquoc2525:dinhanhquoc182002@comingsoon.kxtinoj.mongodb.net/?retryWrites=true&w=majority/Email";
 
 const connectDB = async () => {
   try {

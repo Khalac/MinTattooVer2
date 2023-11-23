@@ -17,19 +17,14 @@ connectDB();
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(cors());
+app.use(
+  cors({
+    origin: ["min-tattoo-ver2-v6fi.vercel.app"],
+    methods: ["POST", "GET"],
+    credentials: true,
+  })
+);
 
-if (
-  process.env.NODE_ENV === "production" ||
-  process.env.NODE_ENV === "staging"
-) {
-  app.use;
-  express.static;
-  ("client/build");
-  app.get("*", (req, res) => {
-    res.sendFile(path.resolve(_dirname, "client", "build", "index.html"));
-  });
-}
 app.use(
   session({
     secret: "hSnsdiu2Subnds5GdhDEfB", // Change this to a secure random string
