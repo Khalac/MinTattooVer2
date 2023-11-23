@@ -18,7 +18,6 @@ function ComingSoon() {
   console.log(mail);
   axios.defaults.withCredentials = true;
   const SendEmail = async (e) => {
-    e.preventDefault();
     await axios
       .post("https://min-tattoo-ver2-ntaj.vercel.app/email", {
         mail,
