@@ -18,7 +18,7 @@ function ComingSoon() {
   console.log(mail);
   const SendEmail = async () => {
     await axios
-      .post("http://localhost:3434/email", {
+      .post("http://0.0.0.0:3434/email", {
         mail,
       })
       .then((res) => {
