@@ -39,6 +39,10 @@ app.use("/email", EmailRouter);
 const reactBuildPath = fe_file_path.build;
 app.use(express.static(reactBuildPath));
 
+app.get("/", (req, res) => {
+  res.json("hello");
+});
+
 app.listen(PORT, () => {
   console.log(`Server on port ${PORT}`);
 });
