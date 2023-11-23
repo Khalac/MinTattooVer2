@@ -9,7 +9,7 @@ import EmailRouter from "./routes/User.js";
 import bodyParser from "body-parser";
 import cors from "cors";
 
-const PORT = 4400;
+const PORT = 5555;
 const app = express();
 
 connectDB();

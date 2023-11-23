@@ -10,6 +10,7 @@ import FAQ from "../../Components/FAQ/FAQ";
 
 import "../../Components/assets/font/Ramelik.otf";
 import Service from "../../Components/Services/Service";
+import ComingSoon from "../../Components/ComingSoon/ComingSoon";
 
 function MainPage() {
   const [Email, setEmail] = [];
@@ -24,7 +25,8 @@ function MainPage() {
 
   return (
     <div className="MainPage">
-      <div className="MP_CommingSoon">
+      <ComingSoon />
+      {/* <div className="MP_CommingSoon">
         <div className="CommingSoonText">COMING SOON</div>
       </div>
       <div className="MP_Header">
@@ -45,7 +47,7 @@ function MainPage() {
       </div>
       <div className="MP_FAQ">
         <FAQ />
-      </div>
+      </div> */}
     </div>
   );
 }
