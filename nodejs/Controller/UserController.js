@@ -10,10 +10,10 @@ const EmailController = {
     try {
       const data = req.body.mail;
       const email = { email: data };
-
+      console.log(email);
       const newEmail = new Email(email);
       await newEmail.save();
-      return res.json({ onSucecss: true });
+      return res.json({ onSuccess: true });
     } catch (error) {
       return res.json({ onSuccess: false, error });
     }

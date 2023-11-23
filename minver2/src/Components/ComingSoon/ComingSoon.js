@@ -18,14 +18,14 @@ function ComingSoon() {
   console.log(mail);
   const SendEmail = async () => {
     await axios
-      .post("http://localhost:6666/email", {
+      .post("http://localhost:3434/email", {
         mail,
       })
       .then((res) => {
         console.log(res);
-        openNotificationWithIconSuc("success");
-        if (res.onSuccess) {
+        if (res.data.onSuccess) {
           console.log("Sucess");
+          openNotificationWithIconSuc("success");
         } else {
           console.log("error");
         }
