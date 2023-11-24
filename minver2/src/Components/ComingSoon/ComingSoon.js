@@ -4,6 +4,7 @@ import axios from "axios";
 
 import "./ComingSoon.scss";
 import bg from "../assets/imgComingSoon/4.png";
+import bgpc from "../assets/imgComingSoon/bgpc.png";
 import logo from "../assets/imgComingSoon/2.png";
 import Name from "../assets/imgComingSoon/3.png";
 
@@ -39,10 +40,10 @@ function ComingSoon() {
       description: "Sent email successfully!",
     });
   };
-
+  const isMobile = /iPhone|iPod|Android/i.test(navigator.userAgent);
   return (
     <div className="ComingSoon">
-      <img src={bg} alt="" className="ComingSoon_Bg" />
+      <img src={isMobile ? bgpc : bg} alt="" className="ComingSoon_Bg" />
       <div className="ComingSoon_Logo">
         <img src={logo} alt="" className="Logo_Img_cms" />
         <img src={Name} alt="" className="Name_Img" />
