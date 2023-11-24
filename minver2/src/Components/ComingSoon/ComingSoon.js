@@ -3,15 +3,15 @@ import { useState } from "react";
 import axios from "axios";
 
 import "./ComingSoon.scss";
-import bg from "../assets/imgComingSoon/4.png";
-import bgpc from "../assets/imgComingSoon/bgpc.png";
-import logo from "../assets/imgComingSoon/2.png";
-import Name from "../assets/imgComingSoon/3.png";
+import bg from "../assets/imgComingSoon/4.webp";
+import bgpc from "../assets/imgComingSoon/bgpc.webp";
+import logo from "../assets/imgComingSoon/2.webp";
+import Name from "../assets/imgComingSoon/3.webp";
 
-import fb from "../assets/imgComingSoon/7.png";
-import ins from "../assets/imgComingSoon/6.png";
-import phone from "../assets/imgComingSoon/5.png";
-import email from "../assets/imgComingSoon/8.png";
+import fb from "../assets/imgComingSoon/7.webp";
+import ins from "../assets/imgComingSoon/6.webp";
+import phone from "../assets/imgComingSoon/5.webp";
+import email from "../assets/imgComingSoon/8.webp";
 
 import { notification } from "antd";
 
