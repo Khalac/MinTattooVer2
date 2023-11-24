@@ -17,10 +17,10 @@ import { notification } from "antd";
 function ComingSoon() {
   const [mail, setMail] = useState("");
   console.log(mail);
-  axios.defaults.withCredentials = true;
-  const SendEmail = async (e) => {
+
+  const SendEmail = async () => {
     await axios
-      .post("https://min-tattoo-ver2-ntaj.vercel.app/email", {
+      .post("https://min-tattoo-ver2-ntaj.vercel.app/Email", {
         mail,
       })
       .then((res) => {
@@ -28,11 +28,9 @@ function ComingSoon() {
         if (res.data.onSuccess) {
           console.log("Sucess");
           openNotificationWithIconSuc("success");
-        } else {
-          console.log("error");
         }
       })
-      .catch((err) => console.log("error"));
+      .catch((err) => console.log("error", err));
   };
 
   const openNotificationWithIconSuc = (type) => {

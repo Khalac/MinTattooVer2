@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: ["min-tattoo-ver2-v6fi.vercel.app"],
+    origin: ["https://min-tattoo-ver2-v6fi.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true,
     origin: true,
