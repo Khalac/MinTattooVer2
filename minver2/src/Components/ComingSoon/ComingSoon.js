@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import axios from "axios";
+
 import "./ComingSoon.scss";
 import bg from "../assets/imgComingSoon/4.png";
 import logo from "../assets/imgComingSoon/2.png";

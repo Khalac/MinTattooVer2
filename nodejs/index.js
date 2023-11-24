@@ -22,6 +22,7 @@ app.use(
     origin: ["min-tattoo-ver2-v6fi.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true,
+    origin: true,
   })
 );
 
