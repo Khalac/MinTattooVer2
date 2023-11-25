@@ -4,7 +4,7 @@
     height: 100vh;
     position: relative;
     background-color: black;
-    
+
     .ComingSoon_Bg{
       position: absolute;
       width: 100%;
@@ -21,7 +21,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding-top: 2%;
+
       .Logo_Img_cms{
         height: 20%;
         width: 13%;
@@ -133,6 +133,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: end;
+      margin-top: 2%;
       .ComingSoon_Contact_Text{
         display: flex;
         justify-content: center;
@@ -188,7 +189,7 @@
     position: relative;
     background-color: black;
     display: flex;
-    justify-content: c;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     .ComingSoon_Bg{
@@ -207,7 +208,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-
+      margin-bottom: 4%;
       .Logo_Img_cms{
         height: 17%;
         width: 30%;
@@ -281,6 +282,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      position: relative;
       .EmailFormValue_ComingSoon{
         background-color: rgba(0, 0, 0, 0);
         height: 15%;
@@ -292,7 +294,8 @@
         color: #C4BEBE;
         border-top-left-radius: 20px;
         font-size: 50%;
-
+        position: absolute;
+        left: 20%;
         &::placeholder{
           display: flex;
           justify-content: center;
@@ -306,7 +309,7 @@
         height: 15%;
         width: 20%;
         background-color: #B91E2D;
-        border: 2.5px solid #B91E2D;
+        border: 3px solid #B91E2D;
         letter-spacing: 1px;
         font-size: 50%;
         font-family: "CompagnonMedium";
@@ -316,7 +319,8 @@
         justify-content: center;
         border-bottom-right-radius: 20px;
         cursor: pointer;
-
+        position: absolute;
+        right: 15%;
       }
     }
     .ComingSoon_Contact{
@@ -346,28 +350,28 @@
         position: absolute;
         top: 70%;
         .ComingSoon_Contact_Icon1{
-          height: 38%;
+          height: 40%;
           margin-left: 7%;
           margin-right: 7%;
           width: 8%;
           z-index: 3;
         }
         .ComingSoon_Contact_Icon2{
-          height: 35%;
+          height: 37%;
           margin-left: 7%;
           margin-right: 7%;
           width: 12%;
           z-index: 3;
         }
         .ComingSoon_Contact_Icon3{
-          height:35%;
+          height:37%;
           margin-left: 7%;
           margin-right: 7%;
           width: 12%;
           z-index: 3;
         }
         .ComingSoon_Contact_Icon4{
-          height: 32%;
+          height: 35%;
           margin-left: 7%;
           margin-right: 7%;
           width: 12%;
