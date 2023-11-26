@@ -16,6 +16,13 @@ import email from "../assets/imgComingSoon/8.webp";
 import { notification } from "antd";
 
 function ComingSoon() {
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty("--vh", `${vh}px`);
+  window.addEventListener("resize", () => {
+    // làm tương tự 2 bước đã làm
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty("--vh", `${vh}px`);
+  });
   const [mail, setMail] = useState("");
   console.log(mail);
 
