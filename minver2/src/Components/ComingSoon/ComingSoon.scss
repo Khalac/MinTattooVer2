@@ -186,6 +186,7 @@
   .ComingSoon{
     width: 100%;
     height: 100%;
+    max-height: -webkit-fill-available;
     position: relative;
     background-color: black;
     display: flex;
