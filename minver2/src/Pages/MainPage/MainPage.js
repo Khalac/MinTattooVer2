@@ -13,16 +13,6 @@ import Service from "../../Components/Services/Service";
 import ComingSoon from "../../Components/ComingSoon/ComingSoon";
 
 function MainPage() {
-  const [Email, setEmail] = [];
-  useEffect(() => {
-    axios
-      .get("http://localhost:4400/email")
-      .then((res) => {
-        console.log(res.data.email[0].email);
-      })
-      .catch((err) => console.log(err));
-  }, []);
-
   return (
     <div className="MainPage">
       <ComingSoon />
