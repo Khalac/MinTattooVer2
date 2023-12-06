@@ -3,7 +3,7 @@
   .Header{
     height: 100%;
     color: white;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.062), rgba(255, 255, 255, 0.062)),url('../assets/bg/bg.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.062), rgba(255, 255, 255, 0.062)),url('../assets/bg/bg.webp');
     background-position: center ;
     background-repeat: no-repeat;
     background-size: 150%;
@@ -30,6 +30,7 @@
       cursor: pointer;
       padding: 0 10px;
       color: rgb(193, 191, 191);
+      text-decoration: none;
       &:hover{
         color: white;
       }
@@ -69,7 +70,7 @@
   .Header{
     height: 100%;
     color: white;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.062), rgba(255, 255, 255, 0.062)),url('../assets/bg/bg.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.062), rgba(255, 255, 255, 0.062)),url('../assets/bg/bg.webp');
     
   }
   .Pages{
@@ -89,6 +90,7 @@
       position: relative;
       cursor: pointer;
       color: rgb(193, 191, 191);
+      text-decoration: none;
       &:hover{
         color: white;
       }

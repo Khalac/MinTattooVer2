@@ -38,6 +38,10 @@ body {
   font-family: "LucidaSansTypewriterOblique";
   src: local("LucidaSansTypewriterOblique"),url("../../Components/assets/font/Lucida-Sans-Typewriter-Oblique.ttf") format("truetype");
 }
+@font-face {
+  font-family: "LucidaSansTypewriterBoldOblique";
+  src: local("LucidaSansTypewriterBoldOblique"),url("../../Components/assets/font/Lucida-Sans-Typewriter-Bold-Oblique.ttf") format("truetype");
+}
 
 @font-face {
   font-family: "CopperplateGothicBold";
@@ -61,36 +65,36 @@ body {
     }
   }
   .MP_Header{
-    height: 35%;
+    height: 35vh;
 
   }
   .MP_Home{
-    height: 320%;
+    height: 320vh;
 
   }
   .MP_Artist{
-    height: 250%;
+    height: 250vh;
   }
   .MP_About{
-    height: 150%;
+    height: 150vh;
   }
   .MP_Service{
 
-    height: 90%;
+    height: 90vh;
   }
   .MP_Img{
-    height: 50%;
-    background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('../../Components/assets/bg/banner.jpg');
+    height: 50vh;
+    background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('../../Components/assets/bg/banner.webp');
     background-position: 50% 80%;
     background-repeat: no-repeat;
     background-size: cover;
     
     }
   .MP_Contact{
-    height: 180%;
+    height: 180vh;
   }
   .MP_FAQ{
-    height: 130%;
+    height: 130vh;
   }
 }
 
@@ -112,31 +116,31 @@ body {
   }
   .MP_Header{
 
-    height: 20%;
+    height: 20vh;
   }
   .MP_Home{
 
-    height: 180%;
+    height: 180vh;
   }
   .MP_Service{
 
-    height: 50%;
+    height: 50vh;
   }
   .MP_Img{
-  height: 15%;
-  background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('../../Components/assets/bg/banner.jpg');
+  height: 15vh;
+  background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('../../Components/assets/bg/banner.webp');
   background-position: 70% 80%;
   background-repeat: no-repeat;
   background-size: 110%;
   
   }
   .MP_Artist{
-    height: 140%;
+    height: 140vh;
   }
   .MP_Contact{
-    height: 125%;
+    height: 125vh;
   }
   .MP_FAQ{
-    height: 95%;
+    height: 95vh;
   }
 }

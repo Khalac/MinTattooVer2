@@ -3,9 +3,9 @@ import "./Service.scss";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
-import TattooIcon from "../assets/icon/Tattoo.png";
-import PiercingIcon from "../assets/icon/Piercing.png";
-import DesignIcon from "../assets/icon/Design.png";
+import TattooIcon from "../assets/icon/Tattoo.webp";
+import PiercingIcon from "../assets/icon/Piercing.webp";
+import DesignIcon from "../assets/icon/Design.webp";
 
 function Service() {
   const nav = useNavigate();
@@ -45,6 +45,7 @@ function Service() {
               src={TattooIcon}
               className="TattooServiceImg"
               onClick={() => LinkToTattoo()}
+              loading="lazy"
             />
           </div>
           <div className="TattooServiceText">TATTOO</div>
@@ -55,13 +56,14 @@ function Service() {
               src={PiercingIcon}
               className="PiercingServiceImg"
               onClick={() => LinkToPiercing()}
+              loading="lazy"
             />
           </div>
           <div className="PiercingServiceText">PIERCING</div>
         </div>
         <div className="DesignService">
           <div className="DesignServiceImgBor">
-            <img src={DesignIcon} className="DesignServiceImg" />
+            <img src={DesignIcon} className="DesignServiceImg" loading="lazy" />
           </div>
           <div className="DesignServiceText">DESIGN</div>
         </div>

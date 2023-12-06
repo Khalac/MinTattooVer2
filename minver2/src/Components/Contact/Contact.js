@@ -8,7 +8,7 @@ import {
   FaPhone,
 } from "react-icons/fa6";
 
-import LogoMap from "../assets/logo/logomap.png";
+import LogoMap from "../assets/logo/logomap.webp";
 
 function Contact() {
   const SendEmail = () => {
@@ -69,7 +69,7 @@ function Contact() {
         </div>
       </div>
       <div className="ContactMap">
-        <img src={LogoMap} className="MapLogo" />
+        <img src={LogoMap} className="MapLogo" loading="lazy" />
 
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3471.7987797855103!2d-98.37051132263657!3d29.522223875190726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f20.1!3m3!1m2!1s0x865cf3339e4553b7%3A0x2e4edb779891b59d!2s1920%20Ponce%20De%20Leon%2C%20San%20Antonio%2C%20TX%2078239%2C%20USA!5e0!3m2!1sen!2s!4v1695112518253!5m2!1sen!2s"
