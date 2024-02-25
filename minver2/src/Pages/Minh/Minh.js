@@ -36,6 +36,38 @@ function Minh() {
             tattooing that truly ignited his passion for art.
           </div>
         </div>
+        <div className="Minh_Img1"></div>
+        <div className="Minh_Text2">
+          <div className="Minh_Text2_Container">
+            <div className="Minh_Text2_Text">
+              Tattoos, in his eyes, represented a unique and enduring form of
+              artistic expression – a creation that becomes a permanent part of
+              someone's skin, making precision and care paramount. This
+              realization elevated his artistry to a higher level.
+            </div>
+          </div>
+        </div>
+        <div className="Minh_Text3">
+          <div className="Minh_Text3_Container1">
+            <div className="Minh_Text3_Container1_Img"></div>
+            <div className="Minh_Text3_Container1_Text">
+              This young artist's enthusiasm knows no bounds when it comes to
+              tattoo styles. He finds inspiration in a multitude of genres, with
+              a simple criterion: if it looks good, it captivates him. This
+              constant desire to explore and learn keeps Minh open to new
+              artistic horizons.
+            </div>
+          </div>
+          <div className="Minh_Text3_Container2">
+            <div className="Minh_Text3_Container2_Text">
+              His portfolio proudly showcases his expertise in Black and Grey
+              realism, Color Realism, and a deep appreciation for Oriental style
+              tattoos. Beyond these specialties, Minh is always ready to embrace
+              and excel in any style requested by his clients
+            </div>
+            <div className="Minh_Text3_Container2_Img"></div>
+          </div>
+        </div>
       </div>
     </div>
   );

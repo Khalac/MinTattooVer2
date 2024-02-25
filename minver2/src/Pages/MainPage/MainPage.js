@@ -10,12 +10,10 @@ import FAQ from "../../Components/FAQ/FAQ";
 
 import "../../Components/assets/font/Ramelik.otf";
 import Service from "../../Components/Services/Service";
-import ComingSoon from "../../Components/ComingSoon/ComingSoon";
 
 function MainPage() {
   return (
     <div className="MainPage">
-      {/* <ComingSoon /> */}
       <div className="MP_CommingSoon">
         <div className="CommingSoonText">COMING SOON</div>
       </div>
